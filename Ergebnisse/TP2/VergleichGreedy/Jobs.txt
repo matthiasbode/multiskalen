@@ -1,0 +1,982 @@
+
+####################################
+Jobs that could not be scheduled:36
+#########TwistLockLoadUnit[id=ISO615, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO615, 12.192x2.438x2.591] | Bewertung: 0.18180000000000002 | Transports (1): [LU [ISO615]FROM [Slot{1542,(373.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:298}] TO [Slot{1196,(413.054, 61.349999999999994),Train[id: Train-6-, TA: TimeSlot: [03.02.2011;00:00:00,03.02.2011;02:16:40], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:230}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:11:40,03.02.2011;02:42:46]: lu TwistLockLoadUnit[id=ISO615, 12.192x2.438x2.591], res Slot{1542,(373.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:298}
+
+EALOSAE
+LU [ISO615]FROM [Slot{1542,(373.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:298}] TO [Slot{1196,(413.054, 61.349999999999994),Train[id: Train-6-, TA: TimeSlot: [03.02.2011;00:00:00,03.02.2011;02:16:40], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:230}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:14:41, latestOperationStart=03.02.2011;02:15:09, earliestOperationEnd=03.02.2011;02:16:12, latestOperationEnd=03.02.2011;02:16:40}
+#########Swapbody[id=SBY128, 12.192x2.5x2.5]############
+Route:LoadUnit: Swapbody[id=SBY128, 12.192x2.5x2.5] | Bewertung: 0.3826471 | Transports (3): [LU [SBY128]FROM [Slot{1524,(193.05399999999997, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:289}] TO [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] VIA [-SimpleCrane-1-], LU [SBY128]FROM [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] VIA [-LCSystem-], LU [SBY128]FROM [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] TO [Slot{1188,(333.054, 61.349999999999994),Train[id: Train-6-, TA: TimeSlot: [03.02.2011;00:00:00,03.02.2011;02:16:40], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:226}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:11:40,03.02.2011;01:19:57]: lu Swapbody[id=SBY128, 12.192x2.5x2.5], res Slot{1524,(193.05399999999997, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:289}
+TransportOperationImplementation: [LU: SBY128	78534, 2011.02.03 at 01:19:27@Slot-1524 --> 2011.02.03 at 01:20:46@SDSrow-126574-[461...461]  Position: (179.05, 38.05, 0.0) by SimpleCrane-1]
+SimpleSO;TimeSlot: [03.02.2011;01:20:12,03.02.2011;01:22:15]: lu Swapbody[id=SBY128, 12.192x2.5x2.5], res SDSrow-126574-[461...461]  Position: (179.05, 38.05, 0.0)
+LCSTransportOperation{operatingAGV=AGV{number=1} LU: Swapbody[id=SBY128, 12.192x2.5x2.5], chargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=1}, resource=LCSystem, TimeSlot: [03.02.2011;01:22:00,03.02.2011;01:22:15], number=6442}, toDestinationOperation=LCSMovingOperation AGV: AGV{number=1} | Länge: 156 | Transports: 520, TimeSlot: [03.02.2011;01:22:15,03.02.2011;01:24:03]), unChargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=1}, resource=LCSystem, TimeSlot: [03.02.2011;01:24:03,03.02.2011;01:24:18], number=6443}, bewertung=0.0, number=2043}
+SimpleSO;TimeSlot: [03.02.2011;01:24:03,03.02.2011;07:00:00]: lu Swapbody[id=SBY128, 12.192x2.5x2.5], res SDSrow-128626-[470...470]  Position: (341.65, 25.3, 0.0)
+
+EALOSAE
+LU [SBY128]FROM [Slot{1524,(193.05399999999997, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:289}] TO [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;01:19:27, latestOperationStart=03.02.2011;01:19:27, earliestOperationEnd=03.02.2011;01:20:46, latestOperationEnd=03.02.2011;01:20:46}
+LU [SBY128]FROM [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] VIA [-LCSystem-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;01:22:00, latestOperationStart=03.02.2011;01:22:00, earliestOperationEnd=03.02.2011;01:24:18, latestOperationEnd=03.02.2011;01:24:18}
+LU [SBY128]FROM [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] TO [Slot{1188,(333.054, 61.349999999999994),Train[id: Train-6-, TA: TimeSlot: [03.02.2011;00:00:00,03.02.2011;02:16:40], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:226}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:14:41, latestOperationStart=03.02.2011;02:15:13, earliestOperationEnd=03.02.2011;02:16:07, latestOperationEnd=03.02.2011;02:16:40}
+#########TwistLockLoadUnit[id=ISO611, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO611, 12.192x2.438x2.591] | Bewertung: 0.234184 | Transports (1): [LU [ISO611]FROM [Slot{1506,(13.053999999999998, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:280}] TO [SDSrow-23358-[0...58]  Position: (91.4499999999999, 65.75, 0.0)] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:11:40,03.02.2011;02:42:46]: lu TwistLockLoadUnit[id=ISO611, 12.192x2.438x2.591], res Slot{1506,(13.053999999999998, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:280}
+
+EALOSAE
+LU [ISO611]FROM [Slot{1506,(13.053999999999998, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:280}] TO [SDSrow-23358-[0...58]  Position: (91.4499999999999, 65.75, 0.0)] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:25:32, latestOperationStart=03.02.2011;03:26:22, earliestOperationEnd=03.02.2011;03:27:29, latestOperationEnd=03.02.2011;03:28:20}
+#########TwistLockLoadUnit[id=ISO907, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO907, 12.192x2.438x2.591] | Bewertung: 0.154336 | Transports (1): [LU [ISO907]FROM [Slot{2397,(173.05399999999997, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] TO [Slot{1522,(173.05399999999997, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:288}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;04:22:46]: lu TwistLockLoadUnit[id=ISO907, 12.192x2.438x2.591], res Slot{2397,(173.05399999999997, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}
+
+EALOSAE
+LU [ISO907]FROM [Slot{2397,(173.05399999999997, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] TO [Slot{1522,(173.05399999999997, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:288}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:26:47, latestOperationStart=03.02.2011;03:27:02, earliestOperationEnd=03.02.2011;03:28:05, latestOperationEnd=03.02.2011;03:28:20}
+#########TwistLockLoadUnit[id=ISO923, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO923, 6.058x2.438x2.591] | Bewertung: 0.4398702 | Transports (3): [LU [ISO923]FROM [Slot{2571,(163.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:498}] TO [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] VIA [-SimpleCrane-1-], LU [ISO923]FROM [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] VIA [-LCSystem-], LU [ISO923]FROM [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] TO [Slot{1903,(483.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:374}] VIA [-SimpleCrane-3-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO923, 6.058x2.438x2.591], res Slot{2571,(163.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:498}
+
+EALOSAE
+LU [ISO923]FROM [Slot{2571,(163.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:498}] TO [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:43:20, latestOperationStart=03.02.2011;03:43:59, earliestOperationEnd=03.02.2011;03:44:52, latestOperationEnd=03.02.2011;03:45:32}
+LU [ISO923]FROM [LoadUnitStorageGroup: elements LIKE subRack-49[2]	(201.14999999999998, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] VIA [-LCSystem-]----->null
+LU [ISO923]FROM [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] TO [Slot{1903,(483.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:374}] VIA [-SimpleCrane-3-]----->null
+#########TwistLockLoadUnit[id=ISO659, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO659, 12.192x2.438x2.591] | Bewertung: 0.15784800000000002 | Transports (1): [LU [ISO659]FROM [Slot{1699,(193.05399999999997, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] TO [Slot{2397,(173.05399999999997, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:02:46]: lu TwistLockLoadUnit[id=ISO659, 12.192x2.438x2.591], res Slot{1699,(193.05399999999997, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}
+
+EALOSAE
+LU [ISO659]FROM [Slot{1699,(193.05399999999997, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] TO [Slot{2397,(173.05399999999997, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:44:36, latestOperationStart=03.02.2011;03:45:32, earliestOperationEnd=03.02.2011;03:45:55, latestOperationEnd=03.02.2011;03:46:51}
+#########Swapbody[id=SBY145, 6.058x2.5x2.5]############
+Route:LoadUnit: Swapbody[id=SBY145, 6.058x2.5x2.5] | Bewertung: 0.17808600000000002 | Transports (1): [LU [SBY145]FROM [Slot{2396,(163.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] TO [Slot{2571,(163.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:498}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;04:22:46]: lu Swapbody[id=SBY145, 6.058x2.5x2.5], res Slot{2396,(163.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}
+
+EALOSAE
+LU [SBY145]FROM [Slot{2396,(163.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] TO [Slot{2571,(163.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:498}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:44:52, latestOperationStart=03.02.2011;03:45:32, earliestOperationEnd=03.02.2011;03:46:21, latestOperationEnd=03.02.2011;03:47:01}
+#########TwistLockLoadUnit[id=ISO785, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO785, 12.192x2.438x2.591] | Bewertung: 0.177436 | Transports (1): [LU [ISO785]FROM [Slot{2049,(193.05399999999997, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:394}] TO [Slot{1699,(193.05399999999997, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:11:40,03.02.2011;03:42:46]: lu TwistLockLoadUnit[id=ISO785, 12.192x2.438x2.591], res Slot{2049,(193.05399999999997, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:394}
+
+EALOSAE
+LU [ISO785]FROM [Slot{2049,(193.05399999999997, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:394}] TO [Slot{1699,(193.05399999999997, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:45:40, latestOperationStart=03.02.2011;03:46:51, earliestOperationEnd=03.02.2011;03:47:09, latestOperationEnd=03.02.2011;03:48:20}
+#########TwistLockLoadUnit[id=ISO653, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO653, 6.058x2.438x2.591] | Bewertung: 0.179074 | Transports (1): [LU [ISO653]FROM [Slot{1692,(123.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:321}] TO [SDSrow-23389-[0...58]  Position: (91.4499999999999, 65.75, 0.0)] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:02:46]: lu TwistLockLoadUnit[id=ISO653, 6.058x2.438x2.591], res Slot{1692,(123.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:321}
+
+EALOSAE
+LU [ISO653]FROM [Slot{1692,(123.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:321}] TO [SDSrow-23389-[0...58]  Position: (91.4499999999999, 65.75, 0.0)] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:45:40, latestOperationStart=03.02.2011;03:46:50, earliestOperationEnd=03.02.2011;03:47:10, latestOperationEnd=03.02.2011;03:48:20}
+#########Swapbody[id=SBY147, 6.058x2.5x2.5]############
+Route:LoadUnit: Swapbody[id=SBY147, 6.058x2.5x2.5] | Bewertung: 0.4745682 | Transports (3): [LU [SBY147]FROM [Slot{2428,(483.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:479}] TO [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] VIA [-SimpleCrane-3-], LU [SBY147]FROM [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-33[0]	(104.85000000000001, 31.674999999999997)] VIA [-LCSystem-], LU [SBY147]FROM [LoadUnitStorageGroup: elements LIKE subRack-33[0]	(104.85000000000001, 31.674999999999997)] TO [Slot{1686,(63.829, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:318}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;02:54:12]: lu Swapbody[id=SBY147, 6.058x2.5x2.5], res Slot{2428,(483.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:479}
+TransportOperationImplementation: [LU: SBY147	83118, 2011.02.03 at 02:53:42@Slot-2428 --> 2011.02.03 at 02:55:05@SDSrow-193769-[481...481]  Position: (475.04999999999995, 38.05, 0.0) by SimpleCrane-3]
+SimpleSO;TimeSlot: [03.02.2011;02:54:32,03.02.2011;02:57:00]: lu Swapbody[id=SBY147, 6.058x2.5x2.5], res SDSrow-193769-[481...481]  Position: (475.04999999999995, 38.05, 0.0)
+LCSTransportOperation{operatingAGV=AGV{number=0} LU: Swapbody[id=SBY147, 6.058x2.5x2.5], chargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=0}, resource=LCSystem, TimeSlot: [03.02.2011;02:56:45,03.02.2011;02:57:00], number=9551}, toDestinationOperation=LCSMovingOperation AGV: AGV{number=0} | Länge: 397 | Transports: 1268, TimeSlot: [03.02.2011;02:57:00,03.02.2011;03:00:53]), unChargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=0}, resource=LCSystem, TimeSlot: [03.02.2011;03:00:53,03.02.2011;03:01:08], number=9552}, bewertung=0.0, number=3235}
+SimpleSO;TimeSlot: [03.02.2011;03:00:53,03.02.2011;07:00:00]: lu Swapbody[id=SBY147, 6.058x2.5x2.5], res SDSrow-195637-[453...453]  Position: (60.650000000000006, 38.05, 0.0)
+
+EALOSAE
+LU [SBY147]FROM [Slot{2428,(483.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:479}] TO [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] VIA [-SimpleCrane-3-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:53:42, latestOperationStart=03.02.2011;02:53:42, earliestOperationEnd=03.02.2011;02:55:05, latestOperationEnd=03.02.2011;02:55:05}
+LU [SBY147]FROM [LoadUnitStorageGroup: elements LIKE subRack-83[12]	(497.15, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-33[0]	(104.85000000000001, 31.674999999999997)] VIA [-LCSystem-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:56:45, latestOperationStart=03.02.2011;02:56:45, earliestOperationEnd=03.02.2011;03:01:08, latestOperationEnd=03.02.2011;03:01:08}
+LU [SBY147]FROM [LoadUnitStorageGroup: elements LIKE subRack-33[0]	(104.85000000000001, 31.674999999999997)] TO [Slot{1686,(63.829, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:318}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:45:40, latestOperationStart=03.02.2011;03:46:45, earliestOperationEnd=03.02.2011;03:47:15, latestOperationEnd=03.02.2011;03:48:20}
+#########TwistLockLoadUnit[id=ISO637, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO637, 6.058x2.438x2.591] | Bewertung: 0.15784800000000002 | Transports (1): [LU [ISO637]FROM [Slot{1698,(183.829, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] TO [Slot{2396,(163.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:02:46]: lu TwistLockLoadUnit[id=ISO637, 6.058x2.438x2.591], res Slot{1698,(183.829, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}
+
+EALOSAE
+LU [ISO637]FROM [Slot{1698,(183.829, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:324}] TO [Slot{2396,(163.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:463}] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:46:51, latestOperationStart=03.02.2011;03:47:01, earliestOperationEnd=03.02.2011;03:48:10, latestOperationEnd=03.02.2011;03:48:20}
+#########TwistLockLoadUnit[id=ISO865, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO865, 6.058x2.438x2.591] | Bewertung: 0.14915799999999999 | Transports (1): [LU [ISO865]FROM [Slot{2388,(83.82900000000001, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:459}] TO [Slot{1688,(83.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:319}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;04:22:46]: lu TwistLockLoadUnit[id=ISO865, 6.058x2.438x2.591], res Slot{2388,(83.82900000000001, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:459}
+
+EALOSAE
+LU [ISO865]FROM [Slot{2388,(83.82900000000001, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:459}] TO [Slot{1688,(83.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:319}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:46:51, latestOperationStart=03.02.2011;03:47:05, earliestOperationEnd=03.02.2011;03:48:06, latestOperationEnd=03.02.2011;03:48:20}
+#########TwistLockLoadUnit[id=ISO805, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO805, 6.058x2.438x2.591] | Bewertung: 0.172536 | Transports (1): [LU [ISO805]FROM [Slot{2215,(103.82900000000001, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:425}] TO [Slot{1690,(103.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:320}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:02:46]: lu TwistLockLoadUnit[id=ISO805, 6.058x2.438x2.591], res Slot{2215,(103.82900000000001, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:425}
+
+EALOSAE
+LU [ISO805]FROM [Slot{2215,(103.82900000000001, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:425}] TO [Slot{1690,(103.82900000000001, 48.55),Train[id: Train-9-, TA: TimeSlot: [03.02.2011;01:31:40,03.02.2011;03:48:20], laenge: 700.0, track: Gleis=4 java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0], numWaggons: 35, ymin: 47.3-Wagon:320}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;03:46:51, latestOperationStart=03.02.2011;03:46:53, earliestOperationEnd=03.02.2011;03:48:18, latestOperationEnd=03.02.2011;03:48:20}
+#########TwistLockLoadUnit[id=ISO726, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO726, 12.192x2.438x2.591] | Bewertung: 0.183644 | Transports (1): [LU [ISO726]FROM [Slot{1872,(173.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:358}] TO [SDSrow-23425-[31...103]  Position: (209.25000000000006, 65.75, 0.0)] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:51:40,03.02.2011;03:22:46]: lu TwistLockLoadUnit[id=ISO726, 12.192x2.438x2.591], res Slot{1872,(173.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:358}
+
+EALOSAE
+LU [ISO726]FROM [Slot{1872,(173.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:358}] TO [SDSrow-23425-[31...103]  Position: (209.25000000000006, 65.75, 0.0)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:05:31, latestOperationStart=03.02.2011;04:06:48, earliestOperationEnd=03.02.2011;04:07:03, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO737, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO737, 12.192x2.438x2.591] | Bewertung: 0.192756 | Transports (1): [LU [ISO737]FROM [Slot{1880,(253.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:362}] TO [SDSrow-23435-[31...103]  Position: (209.25000000000006, 65.75, 0.0)] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:51:40,03.02.2011;03:22:46]: lu TwistLockLoadUnit[id=ISO737, 12.192x2.438x2.591], res Slot{1880,(253.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:362}
+
+EALOSAE
+LU [ISO737]FROM [Slot{1880,(253.05399999999997, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:362}] TO [SDSrow-23435-[31...103]  Position: (209.25000000000006, 65.75, 0.0)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:05:31, latestOperationStart=03.02.2011;04:06:43, earliestOperationEnd=03.02.2011;04:07:07, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO942, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO942, 6.058x2.438x2.591] | Bewertung: 0.170286 | Transports (1): [LU [ISO942]FROM [Slot{2595,(403.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] TO [Slot{1895,(403.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:370}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO942, 6.058x2.438x2.591], res Slot{2595,(403.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}
+
+EALOSAE
+LU [ISO942]FROM [Slot{2595,(403.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] TO [Slot{1895,(403.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:370}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:06:50, latestOperationStart=03.02.2011;04:06:54, earliestOperationEnd=03.02.2011;04:08:15, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO968, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO968, 12.192x2.438x2.591] | Bewertung: 0.170286 | Transports (1): [LU [ISO968]FROM [Slot{2600,(453.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}] TO [Slot{1900,(453.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:372}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO968, 12.192x2.438x2.591], res Slot{2600,(453.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}
+
+EALOSAE
+LU [ISO968]FROM [Slot{2600,(453.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}] TO [Slot{1900,(453.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:372}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:06:50, latestOperationStart=03.02.2011;04:06:54, earliestOperationEnd=03.02.2011;04:08:15, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO844, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO844, 12.192x2.438x2.591] | Bewertung: 0.177536 | Transports (1): [LU [ISO844]FROM [Slot{2210,(53.054, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:422}] TO [Slot{1860,(53.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:352}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:02:46]: lu TwistLockLoadUnit[id=ISO844, 12.192x2.438x2.591], res Slot{2210,(53.054, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:422}
+
+EALOSAE
+LU [ISO844]FROM [Slot{2210,(53.054, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:422}] TO [Slot{1860,(53.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:352}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:06:50, latestOperationStart=03.02.2011;04:06:51, earliestOperationEnd=03.02.2011;04:08:18, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO721, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO721, 12.192x2.438x2.591] | Bewertung: 0.346014 | Transports (2): [LU [ISO721]FROM [Slot{1884,(293.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:364}] TO [SDSrow-23003-[76...103]  Position: (278.99999999999994, 65.75, 0.0)] VIA [-SimpleCrane-1-], LU [ISO721]FROM [SDSrow-23003-[76...103]  Position: (278.99999999999994, 65.75, 0.0)] TO [Slot{2584,(293.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:504}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:51:40,03.02.2011;03:22:46]: lu TwistLockLoadUnit[id=ISO721, 12.192x2.438x2.591], res Slot{1884,(293.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:364}
+
+EALOSAE
+LU [ISO721]FROM [Slot{1884,(293.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:364}] TO [SDSrow-23003-[76...103]  Position: (278.99999999999994, 65.75, 0.0)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:06:56, latestOperationStart=03.02.2011;04:07:01, earliestOperationEnd=03.02.2011;04:08:15, latestOperationEnd=03.02.2011;04:08:20}
+LU [ISO721]FROM [SDSrow-23003-[76...103]  Position: (278.99999999999994, 65.75, 0.0)] TO [Slot{2584,(293.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:504}] VIA [-SimpleCrane-2-]----->null
+#########TwistLockLoadUnit[id=ISO880, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO880, 6.058x2.438x2.591] | Bewertung: 0.15784800000000002 | Transports (1): [LU [ISO880]FROM [Slot{2418,(383.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] TO [Slot{1891,(363.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:368}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;04:22:46]: lu TwistLockLoadUnit[id=ISO880, 6.058x2.438x2.591], res Slot{2418,(383.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}
+
+EALOSAE
+LU [ISO880]FROM [Slot{2418,(383.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] TO [Slot{1891,(363.829, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:368}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:06:56, latestOperationStart=03.02.2011;04:07:01, earliestOperationEnd=03.02.2011;04:08:15, latestOperationEnd=03.02.2011;04:08:20}
+#########Swapbody[id=SBY133, 12.192x2.5x2.5]############
+Route:LoadUnit: Swapbody[id=SBY133, 12.192x2.5x2.5] | Bewertung: 0.14287799999999998 | Transports (1): [LU [SBY133]FROM [Slot{1892,(373.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:368}] TO [Slot{2417,(373.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:473}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:51:40,03.02.2011;03:22:46]: lu Swapbody[id=SBY133, 12.192x2.5x2.5], res Slot{1892,(373.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:368}
+
+EALOSAE
+LU [SBY133]FROM [Slot{1892,(373.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:368}] TO [Slot{2417,(373.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:473}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:07:02, latestOperationStart=03.02.2011;04:07:08, earliestOperationEnd=03.02.2011;04:08:13, latestOperationEnd=03.02.2011;04:08:20}
+#########TwistLockLoadUnit[id=ISO755, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO755, 6.058x2.438x2.591] | Bewertung: 0.190236 | Transports (1): [LU [ISO755]FROM [Slot{2068,(383.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:404}] TO [Slot{2418,(383.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:11:40,03.02.2011;03:42:46]: lu TwistLockLoadUnit[id=ISO755, 6.058x2.438x2.591], res Slot{2068,(383.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:404}
+
+EALOSAE
+LU [ISO755]FROM [Slot{2068,(383.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:404}] TO [Slot{2418,(383.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:23, latestOperationStart=03.02.2011;04:26:44, earliestOperationEnd=03.02.2011;04:27:58, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591] | Bewertung: 0.4451851 | Transports (3): [LU [ISO866]FROM [Slot{2438,(583.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:484}] TO [LoadUnitStorageGroup: elements LIKE subRack-97[16]	(593.45, 31.674999999999997)] VIA [-SimpleCrane-4-], LU [ISO866]FROM [LoadUnitStorageGroup: elements LIKE subRack-97[16]	(593.45, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] VIA [-LCSystem-], LU [ISO866]FROM [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] TO [Slot{2060,(303.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:400}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;02:54:25]: lu TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591], res Slot{2438,(583.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:484}
+TransportOperationImplementation: [LU: ISO866	83118, 2011.02.03 at 02:53:55@Slot-2438 --> 2011.02.03 at 02:55:18@SDSrow-193993-[488...488]  Position: (578.4499999999999, 38.05, 0.0) by SimpleCrane-4]
+SimpleSSO; TimeSlot: [03.02.2011;02:54:44,03.02.2011;02:56:45]; TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591]; res: SDSrow-193993-[488...488]  Position: (578.4499999999999, 38.05, 0.0); floor: 0
+LCSTransportOperation{operatingAGV=AGV{number=2} LU: TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591], chargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=2}, resource=LCSystem, TimeSlot: [03.02.2011;02:56:30,03.02.2011;02:56:45], number=9593}, toDestinationOperation=LCSMovingOperation AGV: AGV{number=2} | Länge: 297 | Transports: 968, TimeSlot: [03.02.2011;02:56:45,03.02.2011;02:59:47]), unChargingOperation=AbstractLCSOperation{operatingAGV=AGV{number=2}, resource=LCSystem, TimeSlot: [03.02.2011;02:59:47,03.02.2011;03:00:02], number=9594}, bewertung=0.0, number=3243}
+SimpleSSO; TimeSlot: [03.02.2011;02:59:47,03.02.2011;07:00:00]; TwistLockLoadUnit[id=ISO866, 6.058x2.438x2.591]; res: SDSrow-195698-[467...467]  Position: (297.45, 25.3, 0.0); floor: 0
+
+EALOSAE
+LU [ISO866]FROM [Slot{2438,(583.829, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:484}] TO [LoadUnitStorageGroup: elements LIKE subRack-97[16]	(593.45, 31.674999999999997)] VIA [-SimpleCrane-4-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:53:55, latestOperationStart=03.02.2011;02:53:55, earliestOperationEnd=03.02.2011;02:55:18, latestOperationEnd=03.02.2011;02:55:18}
+LU [ISO866]FROM [LoadUnitStorageGroup: elements LIKE subRack-97[16]	(593.45, 31.674999999999997)] TO [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] VIA [-LCSystem-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;02:56:30, latestOperationStart=03.02.2011;02:56:30, earliestOperationEnd=03.02.2011;03:00:02, latestOperationEnd=03.02.2011;03:00:02}
+LU [ISO866]FROM [LoadUnitStorageGroup: elements LIKE subRack-65[8]	(349.15, 31.674999999999997)] TO [Slot{2060,(303.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:400}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:23, latestOperationStart=03.02.2011;04:26:42, earliestOperationEnd=03.02.2011;04:28:00, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO843, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO843, 12.192x2.438x2.591] | Bewertung: 0.15784800000000002 | Transports (1): [LU [ISO843]FROM [Slot{2222,(173.05399999999997, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:428}] TO [Slot{2049,(193.05399999999997, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:394}] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:02:46]: lu TwistLockLoadUnit[id=ISO843, 12.192x2.438x2.591], res Slot{2222,(173.05399999999997, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:428}
+
+EALOSAE
+LU [ISO843]FROM [Slot{2222,(173.05399999999997, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:428}] TO [Slot{2049,(193.05399999999997, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:394}] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:53, latestOperationStart=03.02.2011;04:27:01, earliestOperationEnd=03.02.2011;04:28:12, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO929, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO929, 6.058x2.438x2.591] | Bewertung: 0.15784800000000002 | Transports (1): [LU [ISO929]FROM [Slot{2589,(343.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] TO [Slot{2066,(363.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:403}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO929, 6.058x2.438x2.591], res Slot{2589,(343.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}
+
+EALOSAE
+LU [ISO929]FROM [Slot{2589,(343.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] TO [Slot{2066,(363.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:403}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:53, latestOperationStart=03.02.2011;04:27:01, earliestOperationEnd=03.02.2011;04:28:12, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO927, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO927, 6.058x2.438x2.591] | Bewertung: 0.148422 | Transports (1): [LU [ISO927]FROM [Slot{2599,(443.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}] TO [Slot{2074,(443.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:407}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO927, 6.058x2.438x2.591], res Slot{2599,(443.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}
+
+EALOSAE
+LU [ISO927]FROM [Slot{2599,(443.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:512}] TO [Slot{2074,(443.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:407}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:53, latestOperationStart=03.02.2011;04:27:05, earliestOperationEnd=03.02.2011;04:28:08, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO938, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO938, 6.058x2.438x2.591] | Bewertung: 0.148422 | Transports (1): [LU [ISO938]FROM [Slot{2587,(323.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:506}] TO [Slot{2062,(323.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:401}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO938, 6.058x2.438x2.591], res Slot{2587,(323.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:506}
+
+EALOSAE
+LU [ISO938]FROM [Slot{2587,(323.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:506}] TO [Slot{2062,(323.829, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:401}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:53, latestOperationStart=03.02.2011;04:27:05, earliestOperationEnd=03.02.2011;04:28:08, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO960, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO960, 12.192x2.438x2.591] | Bewertung: 0.148422 | Transports (1): [LU [ISO960]FROM [Slot{2590,(353.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] TO [Slot{2065,(353.054, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:402}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO960, 12.192x2.438x2.591], res Slot{2590,(353.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}
+
+EALOSAE
+LU [ISO960]FROM [Slot{2590,(353.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] TO [Slot{2065,(353.054, 7.65),Train[id: Train-11-, TA: TimeSlot: [03.02.2011;02:11:40,03.02.2011;04:28:20], laenge: 700.0, track: Gleis=0 java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.8], numWaggons: 35, ymin: 6.4-Wagon:402}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:26:53, latestOperationStart=03.02.2011;04:27:05, earliestOperationEnd=03.02.2011;04:28:08, latestOperationEnd=03.02.2011;04:28:20}
+#########TwistLockLoadUnit[id=ISO520, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO520, 6.058x2.438x2.591] | Bewertung: 0.314608 | Transports (2): [LU [ISO520]FROM [Slot{1338,(83.82900000000001, 19.8),Train[id: Train-7-, TA: TimeSlot: [03.02.2011;00:51:40,03.02.2011;03:08:20], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:249}] TO [SDSrow-22974-[225...283]  Position: (91.4499999999999, 3.25, 0.0)] VIA [-SimpleCrane-0-], LU [ISO520]FROM [SDSrow-22974-[225...283]  Position: (91.4499999999999, 3.25, 0.0)] TO [Slot{2215,(103.82900000000001, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:425}] VIA [-SimpleCrane-0-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;00:51:40,03.02.2011;01:38:31]: lu TwistLockLoadUnit[id=ISO520, 6.058x2.438x2.591], res Slot{1338,(83.82900000000001, 19.8),Train[id: Train-7-, TA: TimeSlot: [03.02.2011;00:51:40,03.02.2011;03:08:20], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:249}
+TransportOperationImplementation: [LU: ISO520	79743, 2011.02.03 at 01:38:01@Slot-1338 --> 2011.02.03 at 01:39:21@SDSrow-139324-[256...257]  Position: (99.19999999999996, 3.25, 0.0) by SimpleCrane-0]
+SimpleSSO; TimeSlot: [03.02.2011;01:38:48,03.02.2011;07:00:00]; TwistLockLoadUnit[id=ISO520, 6.058x2.438x2.591]; res: SDSrow-139324-[256...257]  Position: (99.19999999999996, 3.25, 0.0); floor: 0
+
+EALOSAE
+LU [ISO520]FROM [Slot{1338,(83.82900000000001, 19.8),Train[id: Train-7-, TA: TimeSlot: [03.02.2011;00:51:40,03.02.2011;03:08:20], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:249}] TO [SDSrow-22974-[225...283]  Position: (91.4499999999999, 3.25, 0.0)] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;01:38:01, latestOperationStart=03.02.2011;01:38:01, earliestOperationEnd=03.02.2011;01:39:21, latestOperationEnd=03.02.2011;01:39:21}
+LU [ISO520]FROM [SDSrow-22974-[225...283]  Position: (91.4499999999999, 3.25, 0.0)] TO [Slot{2215,(103.82900000000001, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:425}] VIA [-SimpleCrane-0-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:46:57, latestOperationStart=03.02.2011;04:47:02, earliestOperationEnd=03.02.2011;04:48:14, latestOperationEnd=03.02.2011;04:48:20}
+#########TwistLockLoadUnit[id=ISO821, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO821, 6.058x2.438x2.591] | Bewertung: 0.14207599999999998 | Transports (1): [LU [ISO821]FROM [Slot{2239,(343.829, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:437}] TO [Slot{2589,(343.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:02:46]: lu TwistLockLoadUnit[id=ISO821, 6.058x2.438x2.591], res Slot{2239,(343.829, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:437}
+
+EALOSAE
+LU [ISO821]FROM [Slot{2239,(343.829, 12.55),Train[id: Train-12-, TA: TimeSlot: [03.02.2011;02:31:40,03.02.2011;04:48:20], laenge: 700.0, track: Gleis=1 java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0], numWaggons: 35, ymin: 11.3-Wagon:437}] TO [Slot{2589,(343.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:46:57, latestOperationStart=03.02.2011;04:47:08, earliestOperationEnd=03.02.2011;04:48:08, latestOperationEnd=03.02.2011;04:48:20}
+#########TwistLockLoadUnit[id=ISO913, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO913, 12.192x2.438x2.591] | Bewertung: 0.19335400000000003 | Transports (1): [LU [ISO913]FROM [Slot{2419,(393.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] TO [SDSrow-23566-[76...148]  Position: (348.75000000000045, 65.75, 0.0)] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;02:51:40,03.02.2011;04:22:46]: lu TwistLockLoadUnit[id=ISO913, 12.192x2.438x2.591], res Slot{2419,(393.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}
+
+EALOSAE
+LU [ISO913]FROM [Slot{2419,(393.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] TO [SDSrow-23566-[76...148]  Position: (348.75000000000045, 65.75, 0.0)] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:05:11, latestOperationStart=03.02.2011;05:05:14, earliestOperationEnd=03.02.2011;05:06:47, latestOperationEnd=03.02.2011;05:06:50}
+#########Swapbody[id=SBY150, 12.192x2.5x2.5]############
+Route:LoadUnit: Swapbody[id=SBY150, 12.192x2.5x2.5] | Bewertung: 0.17808600000000002 | Transports (1): [LU [SBY150]FROM [Slot{2596,(413.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] TO [Slot{2419,(393.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu Swapbody[id=SBY150, 12.192x2.5x2.5], res Slot{2596,(413.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}
+
+EALOSAE
+LU [SBY150]FROM [Slot{2596,(413.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] TO [Slot{2419,(393.054, 61.349999999999994),Train[id: Train-13-, TA: TimeSlot: [03.02.2011;02:51:40,03.02.2011;05:08:20], laenge: 700.0, track: Gleis=6 java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.8], numWaggons: 35, ymin: 60.099999999999994-Wagon:474}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:06:41, latestOperationStart=03.02.2011;05:06:50, earliestOperationEnd=03.02.2011;05:08:10, latestOperationEnd=03.02.2011;05:08:20}
+#########TwistLockLoadUnit[id=ISO732, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO732, 12.192x2.438x2.591] | Bewertung: 0.34661200000000003 | Transports (2): [LU [ISO732]FROM [Slot{1898,(433.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:371}] TO [SDSrow-23023-[121...148]  Position: (418.50000000000085, 65.75, 0.0)] VIA [-SimpleCrane-2-], LU [ISO732]FROM [SDSrow-23023-[121...148]  Position: (418.50000000000085, 65.75, 0.0)] TO [Slot{2596,(413.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] VIA [-SimpleCrane-3-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:06:23]: lu TwistLockLoadUnit[id=ISO732, 12.192x2.438x2.591], res Slot{1898,(433.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:371}
+TransportOperationImplementation: [LU: ISO732	77439, 2011.02.03 at 04:05:53@Slot-1898 --> 2011.02.03 at 04:07:10@SDSrow-242782-[137...140]  Position: (430.90000000000094, 65.75, 0.0) by SimpleCrane-2]
+SimpleSSO; TimeSlot: [03.02.2011;04:06:37,03.02.2011;07:00:00]; TwistLockLoadUnit[id=ISO732, 12.192x2.438x2.591]; res: SDSrow-242782-[137...140]  Position: (430.90000000000094, 65.75, 0.0); floor: 0
+
+EALOSAE
+LU [ISO732]FROM [Slot{1898,(433.054, 53.55),Train[id: Train-10-, TA: TimeSlot: [03.02.2011;01:51:40,03.02.2011;04:08:20], laenge: 700.0, track: Gleis=5 java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0], numWaggons: 35, ymin: 52.3-Wagon:371}] TO [SDSrow-23023-[121...148]  Position: (418.50000000000085, 65.75, 0.0)] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;04:05:53, latestOperationStart=03.02.2011;04:05:53, earliestOperationEnd=03.02.2011;04:07:10, latestOperationEnd=03.02.2011;04:07:10}
+LU [ISO732]FROM [SDSrow-23023-[121...148]  Position: (418.50000000000085, 65.75, 0.0)] TO [Slot{2596,(413.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:510}] VIA [-SimpleCrane-3-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:58:21, latestOperationStart=03.02.2011;05:58:25, earliestOperationEnd=03.02.2011;05:59:55, latestOperationEnd=03.02.2011;06:00:00}
+#########TwistLockLoadUnit[id=ISO122, 6.058x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO122, 6.058x2.438x2.591] | Bewertung: 0.329628 | Transports (2): [LU [ISO122]FROM [Slot{141,(363.829, 19.8),Train[id: Train-0-, TA: TimeSlot: [02.02.2011;22:00:00,03.02.2011;00:16:40], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:18}] TO [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] VIA [-SimpleCrane-2-], LU [ISO122]FROM [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] TO [Slot{2587,(323.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:506}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [02.02.2011;22:00:00,02.02.2011;22:04:10]: lu TwistLockLoadUnit[id=ISO122, 6.058x2.438x2.591], res Slot{141,(363.829, 19.8),Train[id: Train-0-, TA: TimeSlot: [02.02.2011;22:00:00,03.02.2011;00:16:40], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:18}
+TransportOperationImplementation: [LU: ISO122	79743, 2011.02.02 at 22:03:40@Slot-141 --> 2011.02.02 at 22:04:59@SDSrow-25306-[341...342]  Position: (362.70000000000044, 3.25, 0.0) by SimpleCrane-2]
+SimpleSSO; TimeSlot: [02.02.2011;22:04:26,03.02.2011;07:00:00]; TwistLockLoadUnit[id=ISO122, 6.058x2.438x2.591]; res: SDSrow-25306-[341...342]  Position: (362.70000000000044, 3.25, 0.0); floor: 0
+
+EALOSAE
+LU [ISO122]FROM [Slot{141,(363.829, 19.8),Train[id: Train-0-, TA: TimeSlot: [02.02.2011;22:00:00,03.02.2011;00:16:40], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:18}] TO [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=02.02.2011;22:03:40, latestOperationStart=02.02.2011;22:03:40, earliestOperationEnd=02.02.2011;22:04:59, latestOperationEnd=02.02.2011;22:04:59}
+LU [ISO122]FROM [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] TO [Slot{2587,(323.829, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:506}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:58:31, latestOperationStart=03.02.2011;05:58:34, earliestOperationEnd=03.02.2011;05:59:56, latestOperationEnd=03.02.2011;06:00:00}
+#########TwistLockLoadUnit[id=ISO600, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO600, 12.192x2.438x2.591] | Bewertung: 0.35284000000000004 | Transports (2): [LU [ISO600]FROM [Slot{1544,(393.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:299}] TO [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] VIA [-SimpleCrane-2-], LU [ISO600]FROM [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] TO [Slot{2590,(353.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] VIA [-SimpleCrane-2-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;01:11:40,03.02.2011;01:47:44]: lu TwistLockLoadUnit[id=ISO600, 12.192x2.438x2.591], res Slot{1544,(393.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:299}
+TransportOperationImplementation: [LU: ISO600	101318, 2011.02.03 at 01:47:14@Slot-1544 --> 2011.02.03 at 01:48:55@SDSrow-144452-[333...336]  Position: (341.0000000000003, 3.25, 0.0) by SimpleCrane-2]
+SimpleSSO; TimeSlot: [03.02.2011;01:48:22,03.02.2011;07:00:00]; TwistLockLoadUnit[id=ISO600, 12.192x2.438x2.591]; res: SDSrow-144452-[333...336]  Position: (341.0000000000003, 3.25, 0.0); floor: 0
+
+EALOSAE
+LU [ISO600]FROM [Slot{1544,(393.054, 43.55),Train[id: Train-8-, TA: TimeSlot: [03.02.2011;01:11:40,03.02.2011;03:28:20], laenge: 700.0, track: Gleis=3 java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0], numWaggons: 35, ymin: 42.3-Wagon:299}] TO [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;01:47:14, latestOperationStart=03.02.2011;01:47:14, earliestOperationEnd=03.02.2011;01:48:55, latestOperationEnd=03.02.2011;01:48:55}
+LU [ISO600]FROM [SDSrow-23016-[301...373]  Position: (348.75000000000045, 3.25, 0.0)] TO [Slot{2590,(353.054, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:507}] VIA [-SimpleCrane-2-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:58:31, latestOperationStart=03.02.2011;05:58:40, earliestOperationEnd=03.02.2011;05:59:50, latestOperationEnd=03.02.2011;06:00:00}
+#########TwistLockLoadUnit[id=ISO964, 12.192x2.438x2.591]############
+Route:LoadUnit: TwistLockLoadUnit[id=ISO964, 12.192x2.438x2.591] | Bewertung: 0.159692 | Transports (1): [LU [ISO964]FROM [Slot{2574,(193.05399999999997, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:499}] TO [SDSrow-23607-[256...328]  Position: (209.25000000000006, 3.25, 0.0)] VIA [-SimpleCrane-1-]]
+Scheduled Jobs:
+SimpleSO;TimeSlot: [03.02.2011;03:43:20,03.02.2011;05:14:26]: lu TwistLockLoadUnit[id=ISO964, 12.192x2.438x2.591], res Slot{2574,(193.05399999999997, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:499}
+
+EALOSAE
+LU [ISO964]FROM [Slot{2574,(193.05399999999997, 19.8),Train[id: Train-14-, TA: TimeSlot: [03.02.2011;03:43:20,03.02.2011;06:00:00], laenge: 700.0, track: Gleis=2 java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0], numWaggons: 35, ymin: 18.55-Wagon:499}] TO [SDSrow-23607-[256...328]  Position: (209.25000000000006, 3.25, 0.0)] VIA [-SimpleCrane-1-]----->EarliestAndLatestOperationStartsAndEnds{earliestOperationStart=03.02.2011;05:58:31, latestOperationStart=03.02.2011;05:58:40, earliestOperationEnd=03.02.2011;05:59:50, latestOperationEnd=03.02.2011;06:00:00}
+JobsToSchedule insgesamt: 688
+Jeingeplante Jobs: 652
+JJobs that could not be scheduled: 36
+Von den eingeplanten Jobs sind 0 DNFs.
+Davon enstanden durch Programmfehler: 0
+Also DNFs durch Krankapazität: 0
+Im Schnitt bestimmte Anzahl an Routen: 1.0904907975460123Information per JobISO100	(343.829, 19.800)	(563.829, 61.350)	223.889	0.408
+ISO101	(643.829, 19.800)	(348.750, 3.250)	295.543	0.184
+ISO102	(23.829, 19.800)	(3.829, 12.550)	21.274	0.158
+ISO103	(223.829, 19.800)	(223.829, 48.550)	28.750	0.165
+ISO105	(183.829, 19.800)	(203.829, 12.550)	21.274	0.158
+ISO106	(283.829, 19.800)	(283.829, 7.650)	12.150	0.148
+ISO107	(583.829, 19.800)	(423.829, 53.550)	163.521	0.326
+ISO110	(423.829, 19.800)	(443.829, 53.550)	39.231	0.170
+ISO112	(303.829, 19.800)	(348.750, 3.250)	47.873	0.194
+ISO113	(163.829, 19.800)	(343.829, 7.650)	180.410	0.407
+ISO114	(243.829, 19.800)	(243.829, 43.550)	23.750	0.160
+ISO115	(263.829, 19.800)	(243.829, 61.350)	46.113	0.361
+ISO118	(663.829, 19.800)	(348.750, 3.250)	315.513	0.208
+ISO119	(623.829, 19.800)	(603.829, 43.550)	31.049	0.160
+ISO120	(683.829, 19.800)	(683.829, 48.550)	28.750	0.165
+ISO121	(483.829, 19.800)	(523.829, 53.550)	52.336	0.182
+ISO122	(363.829, 19.800)	(323.829, 19.800)	40.000	0.330
+ISO125	(403.829, 19.800)	(403.829, 53.550)	33.750	0.170
+ISO126	(353.054, 19.800)	(293.054, 61.350)	72.982	0.366
+ISO127	(493.054, 19.800)	(493.054, 48.550)	28.750	0.165
+ISO128	(173.054, 19.800)	(153.054, 61.350)	46.113	0.345
+ISO130	(313.054, 19.800)	(333.054, 43.550)	31.049	0.160
+ISO131	(553.054, 19.800)	(348.750, 3.250)	204.973	0.206
+ISO133	(73.054, 19.800)	(73.054, 61.350)	41.550	0.351
+ISO134	(13.054, 19.800)	(53.054, 43.550)	46.519	0.182
+ISO135	(413.054, 19.800)	(413.054, 43.550)	23.750	0.343
+ISO137	(193.054, 19.800)	(253.054, 43.550)	64.530	0.206
+ISO140	(673.054, 19.800)	(33.054, 12.550)	640.041	0.597
+ISO141	(53.054, 19.800)	(133.054, 48.550)	85.009	0.230
+ISO142	(393.054, 19.800)	(373.054, 61.350)	46.113	0.363
+ISO143	(633.054, 19.800)	(633.054, 53.550)	33.750	0.170
+ISO144	(513.054, 19.800)	(533.054, 7.650)	23.401	0.158
+ISO146	(433.054, 19.800)	(433.054, 12.550)	7.250	0.142
+ISO148	(453.054, 19.800)	(433.054, 7.650)	23.401	0.158
+ISO149	(593.054, 19.800)	(553.054, 48.550)	49.260	0.182
+ISO151	(573.054, 19.800)	(573.054, 7.650)	12.150	0.148
+ISO152	(233.054, 19.800)	(348.750, 3.250)	116.874	0.169
+ISO153	(434.000, 3.250)	(433.054, 19.800)	16.577	0.159
+ISO154	(362.700, 3.250)	(343.829, 19.800)	25.100	0.163
+ISO155	(406.100, 3.250)	(363.829, 19.800)	45.395	0.191
+ISO156	(303.800, 3.250)	(303.829, 19.800)	16.550	0.159
+ISO157	(415.400, 3.250)	(313.054, 19.800)	103.675	0.263
+ISO158	(143.829, 43.550)	(143.829, 12.550)	31.000	0.168
+ISO159	(83.829, 43.550)	(663.829, 19.800)	580.486	0.525
+ISO160	(243.829, 43.550)	(283.829, 61.350)	43.782	0.182
+ISO162	(463.829, 43.550)	(303.829, 48.550)	160.078	0.430
+ISO163	(123.829, 43.550)	(123.829, 48.550)	5.000	0.138
+ISO164	(383.829, 43.550)	(363.829, 53.550)	22.361	0.158
+ISO165	(283.829, 43.550)	(283.829, 19.800)	23.750	0.343
+ISO166	(183.829, 43.550)	(143.829, 61.350)	43.782	0.337
+ISO168	(603.829, 43.550)	(603.829, 48.550)	5.000	0.138
+ISO172	(503.829, 43.550)	(483.829, 53.550)	22.361	0.158
+ISO173	(323.829, 43.550)	(683.829, 12.550)	361.332	0.497
+ISO175	(23.829, 43.550)	(23.829, 48.550)	5.000	0.138
+ISO176	(363.829, 43.550)	(363.829, 7.650)	35.900	0.172
+ISO179	(403.829, 43.550)	(143.829, 61.350)	260.609	0.470
+ISO180	(3.829, 43.550)	(383.829, 7.650)	381.692	0.521
+ISO181	(343.829, 43.550)	(343.829, 61.350)	17.800	0.310
+ISO182	(643.829, 43.550)	(663.829, 7.650)	41.095	0.172
+ISO183	(453.054, 43.550)	(473.054, 61.350)	26.774	0.158
+ISO184	(213.054, 43.550)	(348.750, 65.750)	137.500	0.165
+ISO185	(133.054, 43.550)	(153.054, 48.550)	20.616	0.158
+ISO186	(273.054, 43.550)	(273.054, 12.550)	31.000	0.168
+ISO187	(573.054, 43.550)	(553.054, 53.550)	22.361	0.158
+ISO188	(633.054, 43.550)	(633.054, 19.800)	23.750	0.160
+ISO190	(253.054, 43.550)	(253.054, 19.800)	23.750	0.160
+ISO191	(373.054, 43.550)	(373.054, 53.550)	10.000	0.146
+ISO192	(513.054, 43.550)	(348.750, 65.750)	165.797	0.168
+ISO193	(493.054, 43.550)	(348.750, 65.750)	146.002	0.165
+ISO194	(613.054, 43.550)	(348.750, 65.750)	265.235	0.165
+ISO198	(413.054, 43.550)	(413.054, 19.800)	23.750	0.160
+ISO199	(53.054, 43.550)	(348.750, 65.750)	296.528	0.186
+ISO201	(73.054, 43.550)	(53.054, 61.350)	26.774	0.158
+ISO202	(33.054, 43.550)	(33.054, 19.800)	23.750	0.160
+ISO203	(693.054, 43.550)	(653.054, 19.800)	46.519	0.182
+ISO204	(653.054, 43.550)	(653.054, 7.650)	35.900	0.172
+ISO206	(673.054, 43.550)	(593.054, 53.550)	80.623	0.230
+ISO207	(153.054, 43.550)	(348.750, 65.750)	196.951	0.208
+ISO208	(313.054, 43.550)	(313.054, 12.550)	31.000	0.168
+ISO211	(592.100, 3.250)	(593.054, 19.800)	16.577	0.159
+ISO212	(446.400, 3.250)	(353.054, 19.800)	94.802	0.252
+ISO213	(458.800, 3.250)	(453.054, 19.800)	17.519	0.159
+ISO214	(527.000, 3.250)	(493.054, 19.800)	37.766	0.181
+ISO215	(539.400, 3.250)	(513.054, 19.800)	31.113	0.172
+ISO216	(173.600, 3.250)	(173.054, 19.800)	16.559	0.159
+ISO217	(583.829, 48.550)	(563.829, 53.550)	20.616	0.158
+ISO219	(303.829, 48.550)	(403.829, 7.650)	108.041	0.254
+ISO220	(403.829, 48.550)	(663.829, 53.550)	260.048	0.508
+ISO221	(503.829, 48.550)	(523.829, 19.800)	35.022	0.165
+ISO222	(43.829, 48.550)	(348.750, 65.750)	305.406	0.197
+ISO223	(483.829, 48.550)	(363.829, 61.350)	120.681	0.388
+ISO224	(683.829, 48.550)	(683.829, 61.350)	12.800	0.149
+ISO225	(623.829, 48.550)	(623.829, 61.350)	12.800	0.149
+ISO226	(243.829, 48.550)	(243.829, 7.650)	40.900	0.177
+ISO227	(63.829, 48.550)	(63.829, 53.550)	5.000	0.138
+ISO228	(3.829, 48.550)	(3.829, 19.800)	28.750	0.165
+ISO230	(83.829, 48.550)	(43.829, 43.550)	40.311	0.182
+ISO231	(543.829, 48.550)	(348.750, 65.750)	195.836	0.205
+ISO232	(163.829, 48.550)	(163.829, 19.800)	28.750	0.165
+ISO233	(123.829, 48.550)	(143.829, 19.800)	35.022	0.165
+ISO234	(603.829, 48.550)	(583.829, 12.550)	41.183	0.173
+ISO235	(363.829, 48.550)	(348.750, 65.750)	22.874	0.160
+ISO236	(183.829, 48.550)	(348.750, 65.750)	165.815	0.171
+ISO238	(283.829, 48.550)	(323.829, 61.350)	41.998	0.182
+ISO239	(263.829, 48.550)	(243.829, 53.550)	20.616	0.158
+ISO241	(343.829, 48.550)	(263.829, 7.650)	89.849	0.230
+ISO242	(673.054, 48.550)	(693.054, 43.550)	20.616	0.158
+ISO245	(13.054, 48.550)	(348.750, 65.750)	336.136	0.234
+ISO246	(313.054, 48.550)	(313.054, 61.350)	12.800	0.149
+ISO247	(553.054, 48.550)	(553.054, 12.550)	36.000	0.173
+ISO249	(513.054, 48.550)	(493.054, 7.650)	45.528	0.177
+ISO253	(153.054, 48.550)	(153.054, 7.650)	40.900	0.177
+ISO254	(33.054, 48.550)	(33.054, 19.800)	28.750	0.420
+ISO257	(93.054, 48.550)	(73.054, 43.550)	20.616	0.158
+ISO258	(133.054, 48.550)	(133.054, 53.550)	5.000	0.138
+ISO259	(413.054, 48.550)	(373.054, 43.550)	40.311	0.182
+ISO261	(53.054, 48.550)	(53.054, 12.550)	36.000	0.173
+ISO262	(173.054, 48.550)	(673.054, 19.800)	500.826	0.522
+ISO264	(633.054, 48.550)	(533.054, 12.550)	106.283	0.254
+ISO266	(353.054, 48.550)	(348.750, 65.750)	17.730	0.160
+ISO268	(453.054, 48.550)	(453.054, 43.550)	5.000	0.138
+ISO269	(193.054, 48.550)	(193.054, 12.550)	36.000	0.173
+ISO270	(551.800, 3.250)	(553.054, 19.800)	16.597	0.159
+ISO271	(263.500, 3.250)	(283.829, 19.800)	26.214	0.165
+ISO272	(573.500, 3.250)	(573.054, 19.800)	16.556	0.159
+ISO273	(424.700, 3.250)	(443.829, 19.800)	25.295	0.163
+ISO274	(204.600, 3.250)	(203.829, 19.800)	16.568	0.159
+ISO275	(582.800, 3.250)	(583.829, 19.800)	16.582	0.159
+ISO276	(603.829, 53.550)	(583.829, 7.650)	50.068	0.182
+ISO277	(23.829, 53.550)	(3.829, 48.550)	20.616	0.158
+ISO278	(143.829, 53.550)	(348.750, 65.750)	205.284	0.203
+ISO280	(3.829, 53.550)	(3.829, 19.800)	33.750	0.490
+ISO282	(223.829, 53.550)	(223.829, 19.800)	33.750	0.170
+ISO283	(523.829, 53.550)	(483.829, 19.800)	52.336	0.353
+ISO285	(363.829, 53.550)	(348.750, 65.750)	19.396	0.158
+ISO286	(243.829, 53.550)	(263.829, 19.800)	39.231	0.170
+ISO287	(163.829, 53.550)	(163.829, 19.800)	33.750	0.358
+ISO289	(43.829, 53.550)	(23.829, 43.550)	22.361	0.158
+ISO290	(423.829, 53.550)	(83.829, 7.650)	343.084	0.475
+ISO292	(183.829, 53.550)	(183.829, 43.550)	10.000	0.146
+ISO293	(663.829, 53.550)	(683.829, 7.650)	50.068	0.182
+ISO295	(623.829, 53.550)	(603.829, 61.350)	21.467	0.158
+ISO296	(323.829, 53.550)	(323.829, 19.800)	33.750	0.170
+ISO297	(683.829, 53.550)	(348.750, 65.750)	335.301	0.232
+ISO298	(63.829, 53.550)	(63.829, 43.550)	10.000	0.146
+ISO299	(483.829, 53.550)	(243.829, 19.800)	242.361	0.446
+ISO300	(303.829, 53.550)	(348.750, 65.750)	46.548	0.194
+ISO302	(403.829, 53.550)	(403.829, 43.550)	10.000	0.146
+ISO303	(373.054, 53.550)	(373.054, 12.550)	41.000	0.178
+ISO305	(353.054, 53.550)	(353.054, 19.800)	33.750	0.344
+ISO308	(333.054, 53.550)	(333.054, 19.800)	33.750	0.348
+ISO309	(513.054, 53.550)	(553.054, 7.650)	60.884	0.182
+ISO310	(593.054, 53.550)	(633.054, 48.550)	40.311	0.182
+ISO311	(53.054, 53.550)	(53.054, 48.550)	5.000	0.138
+ISO313	(233.054, 53.550)	(193.054, 61.350)	40.753	0.182
+ISO314	(133.054, 53.550)	(133.054, 61.350)	7.800	0.143
+ISO315	(213.054, 53.550)	(213.054, 61.350)	7.800	0.299
+ISO318	(13.054, 53.550)	(293.054, 61.350)	280.109	0.536
+ISO320	(533.054, 53.550)	(348.750, 65.750)	184.707	0.192
+ISO323	(293.054, 53.550)	(273.054, 19.800)	39.231	0.170
+ISO324	(153.054, 53.550)	(173.054, 12.550)	45.618	0.353
+ISO326	(633.054, 53.550)	(73.054, 12.550)	561.499	0.501
+ISO327	(253.054, 53.550)	(348.750, 65.750)	96.471	0.193
+ISO328	(553.054, 53.550)	(373.054, 48.550)	180.069	0.432
+ISO329	(113.054, 53.550)	(553.054, 43.550)	440.114	0.485
+ISO330	(623.100, 3.250)	(623.829, 19.800)	16.566	0.159
+ISO331	(644.800, 3.250)	(643.829, 19.800)	16.578	0.159
+ISO332	(685.100, 3.250)	(683.829, 19.800)	16.599	0.159
+ISO333	(93.000, 3.250)	(93.054, 19.800)	16.550	0.159
+ISO334	(644.800, 65.750)	(643.829, 43.550)	22.221	0.165
+ISO335	(613.800, 3.250)	(613.054, 19.800)	16.567	0.159
+ISO336	(423.829, 7.650)	(423.829, 12.550)	4.900	0.138
+ISO337	(103.829, 7.650)	(23.829, 19.800)	80.917	0.230
+ISO338	(3.829, 7.650)	(3.829, 43.550)	35.900	0.172
+ISO339	(583.829, 7.650)	(583.829, 19.800)	12.150	0.148
+ISO340	(283.829, 7.650)	(263.829, 48.550)	45.528	0.177
+ISO342	(83.829, 7.650)	(348.750, 3.250)	264.958	0.149
+ISO343	(663.829, 7.650)	(643.829, 53.550)	50.068	0.182
+ISO345	(23.829, 7.650)	(63.829, 12.550)	40.299	0.182
+ISO346	(543.829, 7.650)	(443.829, 48.550)	108.041	0.254
+ISO348	(383.829, 7.650)	(348.750, 3.250)	35.354	0.182
+ISO350	(203.829, 7.650)	(203.829, 19.800)	12.150	0.148
+ISO354	(483.829, 7.650)	(383.829, 53.550)	110.031	0.254
+ISO355	(523.829, 7.650)	(348.750, 3.250)	175.134	0.181
+ISO356	(463.829, 7.650)	(423.829, 43.550)	53.748	0.366
+ISO358	(683.829, 7.650)	(363.829, 61.350)	324.474	0.499
+ISO359	(183.829, 7.650)	(183.829, 43.550)	35.900	0.354
+ISO360	(403.829, 7.650)	(403.829, 43.550)	35.900	0.341
+ISO363	(253.054, 7.650)	(253.054, 19.800)	12.150	0.148
+ISO364	(313.054, 7.650)	(273.054, 43.550)	53.748	0.182
+ISO366	(373.054, 7.650)	(373.054, 19.800)	12.150	0.148
+ISO367	(73.054, 7.650)	(348.750, 3.250)	275.731	0.162
+ISO368	(633.054, 7.650)	(673.054, 19.800)	41.805	0.389
+ISO369	(333.054, 7.650)	(313.054, 48.550)	45.528	0.177
+ISO370	(493.054, 7.650)	(13.054, 61.350)	482.995	0.530
+ISO371	(693.054, 7.650)	(413.054, 12.550)	280.043	0.544
+ISO372	(293.054, 7.650)	(273.054, 61.350)	57.303	0.190
+ISO373	(33.054, 7.650)	(673.054, 43.550)	641.006	0.597
+ISO374	(213.054, 7.650)	(213.054, 53.550)	45.900	0.182
+ISO375	(513.054, 7.650)	(513.054, 61.350)	53.700	0.190
+ISO376	(93.054, 7.650)	(33.054, 48.550)	72.614	0.206
+ISO377	(233.054, 7.650)	(233.054, 19.800)	12.150	0.148
+ISO378	(433.054, 7.650)	(348.750, 3.250)	84.419	0.208
+ISO379	(173.054, 7.650)	(348.750, 3.250)	175.751	0.184
+ISO380	(413.054, 7.650)	(373.054, 19.800)	41.805	0.182
+ISO383	(553.054, 7.650)	(533.054, 61.350)	57.303	0.351
+ISO386	(13.054, 7.650)	(213.054, 12.550)	200.060	0.456
+ISO387	(393.054, 7.650)	(393.054, 53.550)	45.900	0.182
+ISO388	(573.054, 7.650)	(573.054, 43.550)	35.900	0.172
+ISO389	(530.100, 65.750)	(523.829, 43.550)	23.069	0.165
+ISO390	(24.800, 3.250)	(13.054, 19.800)	20.295	0.159
+ISO391	(368.900, 65.750)	(363.829, 43.550)	22.772	0.165
+ISO392	(310.000, 65.750)	(323.829, 43.550)	26.155	0.165
+ISO393	(499.100, 65.750)	(493.054, 43.550)	23.009	0.165
+ISO394	(300.700, 65.750)	(313.054, 43.550)	25.406	0.165
+ISO395	(203.829, 12.550)	(203.829, 48.550)	36.000	0.340
+ISO396	(563.829, 12.550)	(563.829, 43.550)	31.000	0.168
+ISO398	(243.829, 12.550)	(243.829, 43.550)	31.000	0.168
+ISO399	(143.829, 12.550)	(143.829, 53.550)	41.000	0.178
+ISO402	(423.829, 12.550)	(163.829, 7.650)	260.046	0.470
+ISO404	(483.829, 12.550)	(463.829, 43.550)	36.892	0.168
+ISO405	(223.829, 12.550)	(183.829, 48.550)	53.814	0.182
+ISO406	(583.829, 12.550)	(583.829, 43.550)	31.000	0.351
+ISO408	(683.829, 12.550)	(683.829, 43.550)	31.000	0.168
+ISO410	(403.829, 12.550)	(403.829, 19.800)	7.250	0.142
+ISO411	(543.829, 12.550)	(543.829, 19.800)	7.250	0.142
+ISO413	(623.829, 12.550)	(348.750, 3.250)	275.236	0.160
+ISO414	(323.829, 12.550)	(323.829, 48.550)	36.000	0.358
+ISO415	(103.829, 12.550)	(83.829, 19.800)	21.274	0.158
+ISO416	(643.829, 12.550)	(263.829, 61.350)	383.121	0.521
+ISO418	(3.829, 12.550)	(423.829, 19.800)	420.063	0.569
+ISO419	(343.829, 12.550)	(603.829, 53.550)	263.213	0.405
+ISO420	(503.829, 12.550)	(503.829, 48.550)	36.000	0.173
+ISO421	(493.054, 12.550)	(573.054, 48.550)	87.727	0.230
+ISO422	(473.054, 12.550)	(473.054, 19.800)	7.250	0.321
+ISO423	(693.054, 12.550)	(348.750, 3.250)	344.430	0.243
+ISO424	(553.054, 12.550)	(693.054, 7.650)	140.086	0.302
+ISO425	(393.054, 12.550)	(348.750, 3.250)	45.270	0.193
+ISO427	(73.054, 12.550)	(73.054, 53.550)	41.000	0.178
+ISO428	(633.054, 12.550)	(633.054, 61.350)	48.800	0.367
+ISO429	(253.054, 12.550)	(348.750, 3.250)	96.147	0.193
+ISO431	(313.054, 12.550)	(353.054, 43.550)	50.606	0.182
+ISO433	(53.054, 12.550)	(53.054, 19.800)	7.250	0.373
+ISO436	(433.054, 12.550)	(413.054, 7.650)	20.592	0.158
+ISO437	(593.054, 12.550)	(593.054, 61.350)	48.800	0.185
+ISO438	(193.054, 12.550)	(193.054, 19.800)	7.250	0.142
+ISO439	(673.054, 12.550)	(653.054, 43.550)	36.892	0.168
+ISO440	(173.054, 12.550)	(153.054, 53.550)	45.618	0.178
+ISO441	(13.054, 12.550)	(13.054, 48.550)	36.000	0.468
+ISO444	(653.054, 12.550)	(673.054, 48.550)	41.183	0.173
+ISO446	(533.054, 12.550)	(348.750, 3.250)	184.538	0.192
+ISO447	(213.054, 12.550)	(113.054, 61.350)	111.272	0.254
+ISO448	(34.100, 65.750)	(33.054, 43.550)	22.225	0.165
+ISO449	(257.300, 65.750)	(233.054, 43.550)	32.874	0.169
+ISO450	(291.400, 65.750)	(303.829, 43.550)	25.442	0.165
+ISO451	(269.700, 65.750)	(213.054, 43.550)	60.841	0.208
+ISO452	(551.800, 65.750)	(513.054, 43.550)	44.655	0.187
+ISO453	(343.829, 61.350)	(343.829, 43.550)	17.800	0.154
+ISO455	(563.829, 61.350)	(563.829, 48.550)	12.800	0.149
+ISO456	(123.829, 61.350)	(103.829, 43.550)	26.774	0.158
+ISO457	(363.829, 61.350)	(343.829, 61.350)	20.000	0.303
+ISO458	(603.829, 61.350)	(603.829, 48.550)	12.800	0.304
+ISO459	(383.829, 61.350)	(543.829, 12.550)	167.277	0.326
+ISO460	(503.829, 61.350)	(503.829, 12.550)	48.800	0.185
+ISO463	(423.829, 61.350)	(423.829, 48.550)	12.800	0.149
+ISO464	(143.829, 61.350)	(123.829, 43.550)	26.774	0.158
+ISO465	(23.829, 61.350)	(23.829, 53.550)	7.800	0.443
+ISO466	(243.829, 61.350)	(243.829, 19.800)	41.550	0.178
+ISO468	(443.829, 61.350)	(443.829, 53.550)	7.800	0.341
+ISO469	(663.829, 61.350)	(123.829, 53.550)	540.056	0.524
+ISO470	(583.829, 61.350)	(483.829, 19.800)	108.289	0.254
+ISO472	(3.829, 61.350)	(203.829, 7.650)	207.084	0.472
+ISO473	(683.829, 61.350)	(643.829, 48.550)	41.998	0.182
+ISO475	(163.829, 61.350)	(183.829, 19.800)	46.113	0.178
+ISO476	(483.829, 61.350)	(463.829, 19.800)	46.113	0.178
+ISO477	(283.829, 61.350)	(263.829, 19.800)	46.113	0.333
+ISO478	(83.829, 61.350)	(83.829, 53.550)	7.800	0.304
+ISO479	(413.054, 61.350)	(393.054, 43.550)	26.774	0.158
+ISO481	(553.054, 61.350)	(553.054, 48.550)	12.800	0.149
+ISO483	(313.054, 61.350)	(348.750, 65.750)	35.966	0.183
+ISO487	(273.054, 61.350)	(93.054, 48.550)	180.455	0.430
+ISO488	(493.054, 61.350)	(493.054, 12.550)	48.800	0.185
+ISO492	(293.054, 61.350)	(348.750, 65.750)	55.870	0.207
+ISO493	(593.054, 61.350)	(533.054, 53.550)	60.505	0.206
+ISO496	(153.054, 61.350)	(133.054, 19.800)	46.113	0.178
+ISO497	(13.054, 61.350)	(13.054, 7.650)	53.700	0.190
+ISO498	(333.054, 61.350)	(348.750, 65.750)	16.301	0.159
+ISO499	(533.054, 61.350)	(513.054, 53.550)	21.467	0.158
+ISO500	(573.054, 61.350)	(348.750, 65.750)	224.347	0.182
+ISO502	(133.054, 61.350)	(133.054, 43.550)	17.800	0.312
+ISO503	(113.054, 61.350)	(93.054, 19.800)	46.113	0.178
+ISO504	(33.054, 61.350)	(348.750, 65.750)	315.727	0.210
+ISO505	(193.054, 61.350)	(348.750, 65.750)	155.758	0.160
+ISO506	(155.000, 65.750)	(173.054, 43.550)	28.614	0.165
+ISO507	(142.600, 65.750)	(153.054, 43.550)	24.538	0.165
+ISO508	(130.200, 65.750)	(133.054, 43.550)	22.383	0.165
+ISO509	(111.600, 65.750)	(113.054, 43.550)	22.248	0.165
+ISO510	(592.100, 65.750)	(593.054, 43.550)	22.220	0.165
+ISO511	(613.800, 65.750)	(613.054, 43.550)	22.213	0.165
+ISO513	(103.829, 19.800)	(543.829, 48.550)	440.938	0.463
+ISO515	(623.829, 19.800)	(623.829, 43.550)	23.750	0.160
+ISO516	(123.829, 19.800)	(123.829, 7.650)	12.150	0.148
+ISO517	(223.829, 19.800)	(223.829, 61.350)	41.550	0.347
+ISO519	(243.829, 19.800)	(223.829, 53.550)	39.231	0.170
+ISO520	(83.829, 19.800)	(103.829, 12.550)	21.274	0.315
+ISO521	(43.829, 19.800)	(43.829, 53.550)	33.750	0.170
+ISO523	(3.829, 19.800)	(348.750, 3.250)	345.318	0.245
+ISO525	(303.829, 19.800)	(303.829, 53.550)	33.750	0.170
+ISO526	(183.829, 19.800)	(123.829, 61.350)	72.982	0.206
+ISO527	(343.829, 19.800)	(523.829, 7.650)	180.410	0.382
+ISO532	(203.829, 19.800)	(223.829, 19.800)	20.000	0.319
+ISO534	(683.829, 19.800)	(663.829, 61.350)	46.113	0.439
+ISO535	(663.829, 19.800)	(663.829, 61.350)	41.550	0.178
+ISO536	(403.829, 19.800)	(383.829, 43.550)	31.049	0.160
+ISO538	(593.054, 19.800)	(553.054, 61.350)	57.675	0.182
+ISO540	(193.054, 19.800)	(348.750, 3.250)	156.573	0.160
+ISO541	(313.054, 19.800)	(313.054, 7.650)	12.150	0.148
+ISO542	(253.054, 19.800)	(348.750, 3.250)	97.117	0.193
+ISO543	(533.054, 19.800)	(533.054, 53.550)	33.750	0.170
+ISO544	(233.054, 19.800)	(333.054, 12.550)	100.262	0.396
+ISO545	(53.054, 19.800)	(253.054, 12.550)	200.131	0.448
+ISO547	(653.054, 19.800)	(53.054, 43.550)	600.470	0.549
+ISO548	(353.054, 19.800)	(353.054, 48.550)	28.750	0.165
+ISO549	(173.054, 19.800)	(348.750, 3.250)	176.474	0.184
+ISO550	(473.054, 19.800)	(348.750, 3.250)	125.401	0.160
+ISO551	(433.054, 19.800)	(393.054, 7.650)	41.805	0.182
+ISO552	(13.054, 19.800)	(73.054, 7.650)	61.218	0.206
+ISO553	(93.054, 19.800)	(93.054, 53.550)	33.750	0.170
+ISO554	(493.054, 19.800)	(493.054, 12.550)	7.250	0.142
+ISO556	(113.054, 19.800)	(113.054, 61.350)	41.550	0.355
+ISO557	(333.054, 19.800)	(333.054, 7.650)	12.150	0.148
+ISO558	(513.054, 19.800)	(353.054, 53.550)	163.521	0.380
+ISO559	(573.054, 19.800)	(593.054, 12.550)	21.274	0.158
+ISO560	(413.054, 19.800)	(393.054, 12.550)	21.274	0.158
+ISO561	(453.054, 19.800)	(273.054, 53.550)	183.137	0.349
+ISO562	(273.054, 19.800)	(348.750, 3.250)	77.484	0.217
+ISO564	(153.054, 19.800)	(153.054, 48.550)	28.750	0.165
+ISO565	(632.400, 65.750)	(633.054, 43.550)	22.210	0.165
+ISO566	(452.600, 65.750)	(453.054, 48.550)	17.206	0.160
+ISO567	(279.000, 65.750)	(263.829, 43.550)	26.889	0.165
+ISO568	(424.700, 65.750)	(413.054, 48.550)	20.772	0.160
+ISO569	(437.100, 65.750)	(433.054, 48.550)	17.669	0.160
+ISO570	(163.829, 43.550)	(103.829, 12.550)	67.535	0.206
+ISO571	(303.829, 43.550)	(303.829, 61.350)	17.800	0.154
+ISO574	(243.829, 43.550)	(543.829, 7.650)	302.140	0.478
+ISO575	(623.829, 43.550)	(348.750, 65.750)	275.973	0.165
+ISO576	(3.829, 43.550)	(3.829, 53.550)	10.000	0.146
+ISO577	(423.829, 43.550)	(423.829, 7.650)	35.900	0.172
+ISO578	(183.829, 43.550)	(348.750, 65.750)	166.408	0.171
+ISO579	(63.829, 43.550)	(63.829, 7.650)	35.900	0.172
+ISO580	(543.829, 43.550)	(523.829, 12.550)	36.892	0.168
+ISO581	(603.829, 43.550)	(623.829, 12.550)	36.892	0.168
+ISO583	(503.829, 43.550)	(348.750, 65.750)	156.660	0.165
+ISO584	(343.829, 43.550)	(348.750, 65.750)	22.739	0.165
+ISO585	(323.829, 43.550)	(323.829, 61.350)	17.800	0.154
+ISO588	(383.829, 43.550)	(623.829, 19.800)	241.172	0.437
+ISO589	(403.829, 43.550)	(403.829, 48.550)	5.000	0.138
+ISO590	(583.829, 43.550)	(563.829, 12.550)	36.892	0.168
+ISO591	(483.829, 43.550)	(403.829, 19.800)	83.451	0.230
+ISO596	(633.054, 43.550)	(633.054, 12.550)	31.000	0.168
+ISO597	(53.054, 43.550)	(33.054, 7.650)	41.095	0.172
+ISO598	(693.054, 43.550)	(693.054, 53.550)	10.000	0.146
+ISO599	(173.054, 43.550)	(173.054, 7.650)	35.900	0.172
+ISO600	(393.054, 43.550)	(353.054, 19.800)	46.519	0.353
+ISO601	(553.054, 43.550)	(553.054, 7.650)	35.900	0.172
+ISO603	(213.054, 43.550)	(193.054, 12.550)	36.892	0.168
+ISO605	(453.054, 43.550)	(453.054, 7.650)	35.900	0.172
+ISO606	(253.054, 43.550)	(33.054, 61.350)	220.719	0.472
+ISO607	(113.054, 43.550)	(113.054, 48.550)	5.000	0.138
+ISO611	(13.054, 43.550)	(348.750, 65.750)	336.429	0.234
+ISO612	(573.054, 43.550)	(573.054, 19.800)	23.750	0.160
+ISO613	(653.054, 43.550)	(653.054, 19.800)	23.750	0.160
+ISO615	(373.054, 43.550)	(413.054, 61.350)	43.782	0.182
+ISO616	(313.054, 43.550)	(348.750, 65.750)	42.036	0.183
+ISO617	(353.054, 43.550)	(173.054, 48.550)	180.069	0.384
+ISO618	(513.054, 43.550)	(453.054, 61.350)	62.585	0.206
+ISO619	(413.054, 43.550)	(273.054, 53.550)	140.357	0.302
+ISO620	(233.054, 43.550)	(348.750, 65.750)	117.807	0.169
+ISO623	(384.400, 65.750)	(443.829, 43.550)	63.440	0.211
+ISO624	(238.700, 65.750)	(233.054, 48.550)	18.103	0.160
+ISO625	(474.300, 65.750)	(473.054, 48.550)	17.245	0.160
+ISO626	(536.300, 65.750)	(503.829, 43.550)	39.335	0.179
+ISO627	(213.900, 65.750)	(213.054, 48.550)	17.221	0.160
+ISO628	(182.900, 65.750)	(163.829, 43.550)	29.267	0.165
+ISO629	(283.829, 48.550)	(283.829, 7.650)	40.900	0.177
+ISO630	(23.829, 48.550)	(83.829, 12.550)	69.971	0.206
+ISO631	(223.829, 48.550)	(203.829, 43.550)	20.616	0.158
+ISO633	(83.829, 48.550)	(123.829, 19.800)	49.260	0.182
+ISO634	(63.829, 48.550)	(348.750, 65.750)	285.440	0.173
+ISO635	(383.829, 48.550)	(343.829, 43.550)	40.311	0.182
+ISO637	(183.829, 48.550)	(163.829, 61.350)	23.745	0.158
+ISO638	(643.829, 48.550)	(643.829, 7.650)	40.900	0.177
+ISO640	(143.829, 48.550)	(403.829, 7.650)	263.197	0.470
+ISO641	(503.829, 48.550)	(503.829, 61.350)	12.800	0.149
+ISO642	(43.829, 48.550)	(243.829, 12.550)	203.214	0.448
+ISO644	(343.829, 48.550)	(348.750, 65.750)	17.890	0.160
+ISO645	(103.829, 48.550)	(123.829, 12.550)	41.183	0.173
+ISO646	(683.829, 48.550)	(683.829, 12.550)	36.000	0.173
+ISO647	(203.829, 48.550)	(143.829, 19.800)	66.532	0.377
+ISO649	(523.829, 48.550)	(348.750, 65.750)	175.922	0.181
+ISO650	(403.829, 48.550)	(403.829, 12.550)	36.000	0.173
+ISO652	(623.829, 48.550)	(43.829, 12.550)	581.116	0.525
+ISO653	(123.829, 48.550)	(348.750, 65.750)	225.578	0.179
+ISO656	(313.054, 48.550)	(613.054, 61.350)	300.273	0.434
+ISO657	(273.054, 48.550)	(273.054, 61.350)	12.800	0.149
+ISO658	(553.054, 48.550)	(348.750, 65.750)	205.027	0.206
+ISO659	(193.054, 48.550)	(173.054, 61.350)	23.745	0.158
+ISO660	(413.054, 48.550)	(433.054, 19.800)	35.022	0.165
+ISO661	(133.054, 48.550)	(293.054, 12.550)	164.000	0.326
+ISO665	(453.054, 48.550)	(453.054, 19.800)	28.750	0.165
+ISO666	(293.054, 48.550)	(293.054, 43.550)	5.000	0.138
+ISO668	(53.054, 48.550)	(113.054, 19.800)	66.532	0.206
+ISO671	(93.054, 48.550)	(53.054, 61.350)	41.998	0.182
+ISO672	(173.054, 48.550)	(173.054, 19.800)	28.750	0.165
+ISO673	(593.054, 48.550)	(613.054, 12.550)	41.183	0.173
+ISO674	(253.054, 48.550)	(653.054, 61.350)	400.205	0.527
+ISO676	(73.054, 48.550)	(573.054, 61.350)	500.164	0.486
+ISO677	(13.054, 48.550)	(93.054, 7.650)	89.849	0.230
+ISO678	(333.054, 48.550)	(348.750, 65.750)	23.285	0.160
+ISO679	(153.054, 48.550)	(348.750, 65.750)	196.450	0.208
+ISO681	(353.054, 48.550)	(693.054, 43.550)	340.037	0.497
+ISO682	(120.900, 65.750)	(143.829, 43.550)	31.915	0.168
+ISO683	(192.200, 65.750)	(193.054, 48.550)	17.221	0.160
+ISO684	(514.600, 65.750)	(513.054, 48.550)	17.269	0.160
+ISO685	(83.700, 65.750)	(83.829, 43.550)	22.200	0.165
+ISO686	(173.600, 65.750)	(173.054, 48.550)	17.209	0.160
+ISO687	(285.200, 65.750)	(283.829, 48.550)	17.255	0.160
+ISO688	(143.829, 53.550)	(348.750, 65.750)	205.284	0.203
+ISO691	(483.829, 53.550)	(483.829, 61.350)	7.800	0.143
+ISO692	(423.829, 53.550)	(523.829, 43.550)	100.499	0.254
+ISO693	(683.829, 53.550)	(683.829, 19.800)	33.750	0.170
+ISO696	(43.829, 53.550)	(43.829, 19.800)	33.750	0.395
+ISO697	(203.829, 53.550)	(183.829, 19.800)	39.231	0.344
+ISO699	(343.829, 53.550)	(623.829, 12.550)	282.986	0.419
+ISO700	(3.829, 53.550)	(63.829, 19.800)	68.841	0.206
+ISO703	(163.829, 53.550)	(163.829, 43.550)	10.000	0.146
+ISO705	(363.829, 53.550)	(363.829, 12.550)	41.000	0.178
+ISO706	(123.829, 53.550)	(123.829, 61.350)	7.800	0.143
+ISO709	(563.829, 53.550)	(543.829, 43.550)	22.361	0.158
+ISO710	(83.829, 53.550)	(63.829, 43.550)	22.361	0.158
+ISO711	(303.829, 53.550)	(348.750, 65.750)	46.548	0.194
+ISO712	(583.829, 53.550)	(583.829, 7.650)	45.900	0.182
+ISO713	(523.829, 53.550)	(503.829, 12.550)	45.618	0.178
+ISO714	(643.829, 53.550)	(663.829, 19.800)	39.231	0.170
+ISO716	(273.054, 53.550)	(253.054, 43.550)	22.361	0.158
+ISO718	(393.054, 53.550)	(313.054, 19.800)	86.828	0.230
+ISO719	(233.054, 53.550)	(233.054, 12.550)	41.000	0.178
+ISO720	(113.054, 53.550)	(113.054, 7.650)	45.900	0.182
+ISO721	(293.054, 53.550)	(293.054, 19.800)	33.750	0.346
+ISO722	(533.054, 53.550)	(493.054, 61.350)	40.753	0.182
+ISO723	(693.054, 53.550)	(348.750, 65.750)	344.520	0.243
+ISO724	(613.054, 53.550)	(613.054, 19.800)	33.750	0.344
+ISO726	(173.054, 53.550)	(348.750, 65.750)	176.119	0.184
+ISO727	(513.054, 53.550)	(513.054, 7.650)	45.900	0.182
+ISO728	(653.054, 53.550)	(633.054, 12.550)	45.618	0.178
+ISO729	(413.054, 53.550)	(13.054, 7.650)	402.625	0.545
+ISO730	(193.054, 53.550)	(193.054, 19.800)	33.750	0.170
+ISO731	(353.054, 53.550)	(353.054, 61.350)	7.800	0.143
+ISO732	(433.054, 53.550)	(413.054, 19.800)	39.231	0.347
+ISO734	(53.054, 53.550)	(348.750, 65.750)	295.948	0.186
+ISO737	(253.054, 53.550)	(348.750, 65.750)	96.471	0.193
+ISO738	(33.054, 53.550)	(133.054, 7.650)	110.031	0.254
+ISO740	(573.054, 53.550)	(348.750, 65.750)	224.636	0.182
+ISO741	(12.400, 65.750)	(13.054, 48.550)	17.212	0.160
+ISO742	(691.300, 65.750)	(693.054, 53.550)	12.325	0.155
+ISO743	(412.300, 65.750)	(413.054, 53.550)	12.223	0.155
+ISO744	(632.400, 3.250)	(633.054, 7.650)	4.448	0.144
+ISO745	(248.000, 65.750)	(243.829, 48.550)	17.699	0.160
+ISO746	(463.829, 7.650)	(143.829, 48.550)	322.603	0.479
+ISO748	(263.829, 7.650)	(543.829, 61.350)	285.103	0.494
+ISO749	(243.829, 7.650)	(383.829, 12.550)	140.086	0.302
+ISO750	(643.829, 7.650)	(643.829, 53.550)	45.900	0.182
+ISO751	(83.829, 7.650)	(83.829, 43.550)	35.900	0.172
+ISO753	(423.829, 7.650)	(423.829, 19.800)	12.150	0.148
+ISO754	(563.829, 7.650)	(363.829, 19.800)	200.369	0.412
+ISO755	(383.829, 7.650)	(383.829, 61.350)	53.700	0.190
+ISO758	(603.829, 7.650)	(348.750, 3.250)	255.117	0.144
+ISO759	(403.829, 7.650)	(348.750, 3.250)	55.254	0.206
+ISO762	(303.829, 7.650)	(303.829, 53.550)	45.900	0.182
+ISO763	(323.829, 7.650)	(323.829, 19.800)	12.150	0.148
+ISO764	(223.829, 7.650)	(163.829, 53.550)	75.543	0.206
+ISO765	(583.829, 7.650)	(483.829, 43.550)	106.249	0.254
+ISO766	(483.829, 7.650)	(348.750, 3.250)	135.151	0.146
+ISO769	(343.829, 7.650)	(103.829, 19.800)	240.307	0.399
+ISO770	(43.829, 7.650)	(43.829, 43.550)	35.900	0.172
+ISO771	(143.829, 7.650)	(143.829, 53.550)	45.900	0.182
+ISO773	(253.054, 7.650)	(253.054, 61.350)	53.700	0.190
+ISO774	(293.054, 7.650)	(273.054, 19.800)	23.401	0.158
+ISO775	(553.054, 7.650)	(348.750, 3.250)	204.351	0.206
+ISO777	(273.054, 7.650)	(273.054, 12.550)	4.900	0.138
+ISO778	(13.054, 7.650)	(133.054, 19.800)	120.614	0.278
+ISO780	(313.054, 7.650)	(313.054, 12.550)	4.900	0.138
+ISO781	(613.054, 7.650)	(613.054, 12.550)	4.900	0.138
+ISO782	(93.054, 7.650)	(113.054, 43.550)	41.095	0.172
+ISO784	(373.054, 7.650)	(373.054, 19.800)	12.150	0.148
+ISO785	(193.054, 7.650)	(193.054, 48.550)	40.900	0.177
+ISO787	(513.054, 7.650)	(513.054, 43.550)	35.900	0.172
+ISO788	(73.054, 7.650)	(73.054, 19.800)	12.150	0.325
+ISO789	(353.054, 7.650)	(333.054, 48.550)	45.528	0.177
+ISO790	(533.054, 7.650)	(533.054, 48.550)	40.900	0.177
+ISO791	(213.054, 7.650)	(233.054, 19.800)	23.401	0.158
+ISO792	(453.054, 7.650)	(433.054, 61.350)	57.303	0.190
+ISO796	(133.054, 7.650)	(348.750, 3.250)	215.741	0.190
+ISO797	(113.054, 7.650)	(348.750, 3.250)	235.737	0.166
+ISO799	(52.700, 3.250)	(53.054, 7.650)	4.414	0.144
+ISO800	(514.600, 3.250)	(513.054, 7.650)	4.664	0.144
+ISO801	(313.100, 3.250)	(313.054, 7.650)	4.400	0.144
+ISO802	(362.700, 65.750)	(363.829, 48.550)	17.237	0.160
+ISO803	(183.829, 12.550)	(348.750, 3.250)	165.183	0.171
+ISO804	(683.829, 12.550)	(343.829, 19.800)	340.077	0.481
+ISO805	(103.829, 12.550)	(103.829, 48.550)	36.000	0.173
+ISO807	(503.829, 12.550)	(563.829, 61.350)	77.340	0.206
+ISO808	(3.829, 12.550)	(3.829, 19.800)	7.250	0.142
+ISO810	(523.829, 12.550)	(503.829, 43.550)	36.892	0.168
+ISO812	(623.829, 12.550)	(303.829, 19.800)	320.082	0.449
+ISO813	(463.829, 12.550)	(423.829, 61.350)	63.099	0.185
+ISO814	(483.829, 12.550)	(523.829, 53.550)	57.280	0.182
+ISO815	(443.829, 12.550)	(383.829, 48.550)	69.971	0.206
+ISO816	(663.829, 12.550)	(348.750, 3.250)	315.216	0.208
+ISO818	(603.829, 12.550)	(623.829, 48.550)	41.183	0.173
+ISO821	(343.829, 12.550)	(343.829, 19.800)	7.250	0.142
+ISO823	(563.829, 12.550)	(583.829, 61.350)	52.739	0.185
+ISO825	(363.829, 12.550)	(383.829, 19.800)	21.274	0.158
+ISO826	(243.829, 12.550)	(263.829, 43.550)	36.892	0.168
+ISO827	(223.829, 12.550)	(483.829, 48.550)	262.480	0.417
+ISO828	(203.829, 12.550)	(343.829, 7.650)	140.086	0.385
+ISO829	(533.054, 12.550)	(513.054, 48.550)	41.183	0.173
+ISO831	(473.054, 12.550)	(473.054, 43.550)	31.000	0.168
+ISO832	(73.054, 12.550)	(273.054, 19.800)	200.131	0.448
+ISO834	(613.054, 12.550)	(348.750, 3.250)	264.468	0.151
+ISO836	(273.054, 12.550)	(233.054, 43.550)	50.606	0.182
+ISO837	(553.054, 12.550)	(348.750, 3.250)	204.516	0.206
+ISO839	(493.054, 12.550)	(348.750, 3.250)	144.603	0.151
+ISO840	(593.054, 12.550)	(593.054, 19.800)	7.250	0.142
+ISO841	(333.054, 12.550)	(333.054, 19.800)	7.250	0.142
+ISO842	(233.054, 12.550)	(413.054, 19.800)	180.146	0.451
+ISO843	(173.054, 12.550)	(193.054, 7.650)	20.592	0.158
+ISO844	(53.054, 12.550)	(53.054, 53.550)	41.000	0.178
+ISO847	(513.054, 12.550)	(348.750, 3.250)	164.567	0.168
+ISO848	(193.054, 12.550)	(193.054, 53.550)	41.000	0.178
+ISO849	(113.054, 12.550)	(153.054, 43.550)	50.606	0.182
+ISO851	(433.054, 12.550)	(433.054, 7.650)	4.900	0.138
+ISO852	(293.054, 12.550)	(293.054, 7.650)	4.900	0.138
+ISO853	(673.054, 12.550)	(613.054, 53.550)	72.670	0.206
+ISO855	(33.054, 12.550)	(348.750, 3.250)	315.833	0.210
+ISO856	(294.500, 3.250)	(293.054, 7.650)	4.632	0.144
+ISO857	(272.800, 3.250)	(273.054, 7.650)	4.407	0.144
+ISO858	(254.200, 3.250)	(253.054, 7.650)	4.547	0.144
+ISO859	(316.200, 65.750)	(323.829, 48.550)	18.816	0.160
+ISO860	(403.000, 65.750)	(403.829, 48.550)	17.220	0.160
+ISO865	(83.829, 61.350)	(83.829, 48.550)	12.800	0.149
+ISO866	(583.829, 61.350)	(303.829, 7.650)	285.103	0.445
+ISO867	(123.829, 61.350)	(203.829, 53.550)	80.379	0.230
+ISO868	(663.829, 61.350)	(663.829, 19.800)	41.550	0.178
+ISO869	(423.829, 61.350)	(503.829, 48.550)	81.018	0.230
+ISO870	(543.829, 61.350)	(603.829, 12.550)	77.340	0.206
+ISO871	(623.829, 61.350)	(643.829, 48.550)	23.745	0.158
+ISO873	(183.829, 61.350)	(263.829, 53.550)	80.379	0.230
+ISO874	(603.829, 61.350)	(348.750, 65.750)	255.117	0.144
+ISO875	(143.829, 61.350)	(283.829, 43.550)	141.127	0.302
+ISO876	(103.829, 61.350)	(143.829, 12.550)	63.099	0.185
+ISO879	(63.829, 61.350)	(43.829, 7.650)	57.303	0.190
+ISO880	(383.829, 61.350)	(363.829, 53.550)	21.467	0.158
+ISO881	(43.829, 61.350)	(3.829, 43.550)	43.782	0.182
+ISO882	(263.829, 61.350)	(123.829, 53.550)	140.217	0.302
+ISO884	(23.829, 61.350)	(348.750, 65.750)	324.951	0.221
+ISO885	(403.829, 61.350)	(343.829, 48.550)	61.350	0.206
+ISO888	(513.054, 61.350)	(533.054, 7.650)	57.303	0.190
+ISO890	(373.054, 61.350)	(373.054, 12.550)	48.800	0.185
+ISO891	(613.054, 61.350)	(633.054, 19.800)	46.113	0.178
+ISO893	(153.054, 61.350)	(173.054, 19.800)	46.113	0.178
+ISO894	(633.054, 61.350)	(633.054, 7.650)	53.700	0.190
+ISO896	(53.054, 61.350)	(33.054, 53.550)	21.467	0.158
+ISO899	(233.054, 61.350)	(348.750, 65.750)	115.780	0.169
+ISO901	(133.054, 61.350)	(348.750, 65.750)	215.741	0.190
+ISO902	(353.054, 61.350)	(413.054, 43.550)	62.585	0.206
+ISO904	(593.054, 61.350)	(593.054, 12.550)	48.800	0.185
+ISO905	(253.054, 61.350)	(348.750, 65.750)	95.797	0.193
+ISO906	(13.054, 61.350)	(33.054, 19.800)	46.113	0.178
+ISO907	(173.054, 61.350)	(173.054, 43.550)	17.800	0.154
+ISO908	(533.054, 61.350)	(348.750, 65.750)	184.357	0.192
+ISO909	(273.054, 61.350)	(313.054, 43.550)	43.782	0.182
+ISO910	(413.054, 61.350)	(348.750, 65.750)	64.454	0.217
+ISO911	(653.054, 61.350)	(653.054, 19.800)	41.550	0.178
+ISO912	(113.054, 61.350)	(213.054, 7.650)	113.506	0.254
+ISO913	(393.054, 61.350)	(348.750, 65.750)	44.522	0.193
+ISO914	(213.900, 3.250)	(213.054, 7.650)	4.481	0.144
+ISO915	(192.200, 3.250)	(193.054, 7.650)	4.482	0.144
+ISO916	(133.300, 3.250)	(133.054, 7.650)	4.407	0.144
+ISO917	(151.900, 3.250)	(153.054, 19.800)	16.590	0.159
+ISO918	(483.600, 65.750)	(463.829, 48.550)	26.206	0.164
+ISO919	(12.400, 3.250)	(13.054, 19.800)	16.563	0.159
+ISO920	(183.829, 19.800)	(283.829, 53.550)	105.542	0.254
+ISO921	(23.829, 19.800)	(348.750, 3.250)	325.342	0.221
+ISO922	(583.829, 19.800)	(348.750, 3.250)	235.661	0.169
+ISO923	(163.829, 19.800)	(483.829, 53.550)	321.775	0.440
+ISO924	(543.829, 19.800)	(563.829, 53.550)	39.231	0.170
+ISO926	(263.829, 19.800)	(348.750, 3.250)	86.519	0.206
+ISO927	(443.829, 19.800)	(443.829, 7.650)	12.150	0.148
+ISO928	(503.829, 19.800)	(443.829, 12.550)	60.436	0.206
+ISO929	(343.829, 19.800)	(363.829, 7.650)	23.401	0.158
+ISO931	(63.829, 19.800)	(83.829, 7.650)	23.401	0.158
+ISO933	(463.829, 19.800)	(463.829, 12.550)	7.250	0.142
+ISO934	(563.829, 19.800)	(203.829, 61.350)	362.390	0.461
+ISO935	(663.829, 19.800)	(623.829, 61.350)	57.675	0.182
+ISO938	(323.829, 19.800)	(323.829, 7.650)	12.150	0.148
+ISO940	(223.829, 19.800)	(223.829, 12.550)	7.250	0.142
+ISO941	(123.829, 19.800)	(183.829, 12.550)	60.436	0.206
+ISO942	(403.829, 19.800)	(403.829, 53.550)	33.750	0.170
+ISO943	(523.829, 19.800)	(603.829, 61.350)	90.147	0.230
+ISO944	(383.829, 19.800)	(348.750, 3.250)	38.787	0.182
+ISO947	(603.829, 19.800)	(403.829, 61.350)	204.270	0.438
+ISO949	(293.054, 19.800)	(348.750, 3.250)	58.103	0.207
+ISO950	(513.054, 19.800)	(473.054, 7.650)	41.805	0.182
+ISO952	(53.054, 19.800)	(673.054, 7.650)	620.119	0.573
+ISO955	(613.054, 19.800)	(553.054, 12.550)	60.436	0.206
+ISO957	(653.054, 19.800)	(348.750, 3.250)	304.754	0.195
+ISO958	(373.054, 19.800)	(348.750, 3.250)	29.404	0.169
+ISO960	(353.054, 19.800)	(353.054, 7.650)	12.150	0.148
+ISO961	(313.054, 19.800)	(273.054, 7.650)	41.805	0.182
+ISO962	(33.054, 19.800)	(33.054, 12.550)	7.250	0.142
+ISO963	(573.054, 19.800)	(573.054, 53.550)	33.750	0.170
+ISO964	(193.054, 19.800)	(348.750, 3.250)	156.573	0.160
+ISO965	(73.054, 19.800)	(293.054, 12.550)	220.119	0.464
+ISO966	(673.054, 19.800)	(653.054, 53.550)	39.231	0.170
+ISO967	(473.054, 19.800)	(473.054, 61.350)	41.550	0.178
+ISO968	(453.054, 19.800)	(453.054, 53.550)	33.750	0.170
+ISO972	(593.054, 19.800)	(513.054, 12.550)	80.328	0.230
+ISO973	(474.300, 3.250)	(473.054, 19.800)	16.597	0.159
+ISO974	(489.800, 65.750)	(483.829, 48.550)	18.207	0.160
+ISO975	(164.300, 65.750)	(163.829, 48.550)	17.206	0.160
+ISO976	(542.500, 65.750)	(543.829, 48.550)	17.251	0.160
+ISO977	(492.900, 3.250)	(493.054, 19.800)	16.551	0.159
+ISO978	(582.800, 65.750)	(583.829, 48.550)	17.231	0.160
+ISO979	(396.800, 3.250)	(353.054, 48.550)	62.975	0.193
+ISO980	(322.400, 65.750)	(323.829, 53.550)	12.283	0.155
+ISO981	(465.000, 65.750)	(463.829, 7.650)	58.112	0.201
+ISO982	(393.700, 65.750)	(393.054, 12.550)	53.204	0.196
+ISO983	(223.200, 65.750)	(223.829, 7.650)	58.103	0.201
+ISO984	(483.600, 3.250)	(483.829, 7.650)	4.406	0.144
+ISO985	(285.200, 3.250)	(283.829, 53.550)	50.319	0.193
+ISO986	(341.000, 3.250)	(353.054, 7.650)	12.832	0.155
+ISO987	(328.600, 3.250)	(333.054, 53.550)	50.497	0.193
+ISO988	(331.700, 65.750)	(333.054, 7.650)	58.116	0.201
+ISO989	(229.400, 65.750)	(223.829, 53.550)	13.412	0.155
+ISO990	(372.000, 3.250)	(373.054, 48.550)	45.312	0.188
+ISO991	(353.400, 3.250)	(353.054, 43.550)	40.301	0.183
+SBY100	(443.829, 19.800)	(443.829, 12.550)	7.250	0.142
+SBY102	(253.054, 19.800)	(348.750, 3.250)	97.117	0.193
+SBY103	(74.400, 3.250)	(73.054, 19.800)	16.605	0.159
+SBY104	(43.829, 43.550)	(43.829, 12.550)	31.000	0.168
+SBY106	(63.829, 43.550)	(23.829, 7.650)	53.748	0.182
+SBY108	(103.829, 48.550)	(83.829, 19.800)	35.022	0.165
+SBY109	(223.829, 48.550)	(263.829, 61.350)	41.998	0.365
+SBY110	(123.829, 53.550)	(103.829, 48.550)	20.616	0.158
+SBY111	(93.054, 53.550)	(13.054, 12.550)	89.894	0.230
+SBY114	(273.054, 7.650)	(393.054, 19.800)	120.614	0.278
+SBY116	(63.829, 12.550)	(348.750, 3.250)	285.073	0.173
+SBY117	(413.054, 12.550)	(393.054, 19.800)	21.274	0.158
+SBY118	(378.200, 65.750)	(383.829, 43.550)	22.903	0.165
+SBY119	(623.829, 61.350)	(563.829, 43.550)	62.585	0.206
+SBY120	(43.829, 61.350)	(3.829, 7.650)	66.960	0.190
+SBY121	(53.054, 61.350)	(53.054, 19.800)	41.550	0.178
+SBY123	(163.829, 19.800)	(348.750, 3.250)	185.660	0.195
+SBY125	(350.300, 65.750)	(283.829, 43.550)	70.080	0.220
+SBY126	(203.829, 43.550)	(183.829, 61.350)	26.774	0.158
+SBY127	(103.829, 43.550)	(643.829, 12.550)	540.889	0.490
+SBY128	(193.054, 43.550)	(333.054, 61.350)	141.127	0.383
+SBY130	(483.829, 48.550)	(163.829, 61.350)	320.256	0.435
+SBY131	(533.054, 48.550)	(533.054, 12.550)	36.000	0.173
+SBY132	(283.829, 53.550)	(348.750, 65.750)	66.057	0.218
+SBY133	(373.054, 53.550)	(373.054, 61.350)	7.800	0.143
+SBY134	(153.054, 53.550)	(413.054, 61.350)	260.117	0.470
+SBY135	(344.100, 65.750)	(343.829, 48.550)	17.202	0.160
+SBY136	(443.829, 7.650)	(348.750, 3.250)	95.181	0.195
+SBY137	(63.829, 7.650)	(43.829, 48.550)	45.528	0.177
+SBY138	(333.054, 7.650)	(348.750, 3.250)	16.301	0.159
+SBY139	(523.900, 65.750)	(523.829, 48.550)	17.200	0.160
+SBY140	(384.400, 3.250)	(373.054, 7.650)	12.169	0.154
+SBY142	(403.829, 12.550)	(83.829, 61.350)	323.700	0.456
+SBY143	(373.054, 12.550)	(348.750, 3.250)	26.023	0.169
+SBY144	(232.500, 3.250)	(233.054, 7.650)	4.435	0.144
+SBY145	(163.829, 61.350)	(163.829, 19.800)	41.550	0.178
+SBY146	(223.829, 61.350)	(483.829, 12.550)	264.540	0.425
+SBY147	(483.829, 61.350)	(63.829, 48.550)	420.195	0.475
+SBY148	(553.054, 19.800)	(213.054, 53.550)	341.671	0.462
+SBY149	(333.054, 19.800)	(333.054, 61.350)	41.550	0.178
+SBY150	(413.054, 19.800)	(393.054, 61.350)	46.113	0.178

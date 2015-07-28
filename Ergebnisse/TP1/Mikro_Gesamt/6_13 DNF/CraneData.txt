@@ -1,0 +1,36 @@
+#########################
+Krandaten
+#########################
+Crane{5}
+Anzahl an Transportoperationen: 149.0
+Mittlere TransportDauer: 88
+Mittlere RüstDauer: 42
+Standardabweichung RüstDauer: 23.190342860768574
+----------------------------
+Crane{6}
+Anzahl an Transportoperationen: 153.0
+Mittlere TransportDauer: 92
+Mittlere RüstDauer: 45
+Standardabweichung RüstDauer: 25.461739944473553
+----------------------------
+Crane{7}
+Anzahl an Transportoperationen: 169.0
+Mittlere TransportDauer: 88
+Mittlere RüstDauer: 40
+Standardabweichung RüstDauer: 19.795196285967965
+----------------------------
+Crane{8}
+Anzahl an Transportoperationen: 150.0
+Mittlere TransportDauer: 88
+Mittlere RüstDauer: 42
+Standardabweichung RüstDauer: 22.611289481141934
+----------------------------
+Crane{9}
+Anzahl an Transportoperationen: 162.0
+Mittlere TransportDauer: 86
+Mittlere RüstDauer: 39
+Standardabweichung RüstDauer: 19.654955507454094
+----------------------------
+#################################Mittlere RüstDauer: 41844.76883780332	00:00:41.844
+Mittlere TransportDauer: 88940.35887611749	00:01:28.940
+mittlere Kranspiele pro LoadUnit: 1.157037037037037

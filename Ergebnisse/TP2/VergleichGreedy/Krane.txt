@@ -1,0 +1,16 @@
+########################################
+ KRANAUSWERTUNG 
+########################################
+generalizedModel.core.resources.cranes.Kranbahn@1b710f5a
+SimpleCrane-0: Anzahl scheduled Operations: 174
+SimpleCrane-0: mittlere Kranspielzeit: 87 Rüstdauer: 44 Summe:131
+SimpleCrane-1: Anzahl scheduled Operations: 161
+SimpleCrane-1: mittlere Kranspielzeit: 89 Rüstdauer: 41 Summe:130
+SimpleCrane-2: Anzahl scheduled Operations: 176
+SimpleCrane-2: mittlere Kranspielzeit: 90 Rüstdauer: 41 Summe:131
+SimpleCrane-3: Anzahl scheduled Operations: 141
+SimpleCrane-3: mittlere Kranspielzeit: 90 Rüstdauer: 42 Summe:132
+SimpleCrane-4: Anzahl scheduled Operations: 121
+SimpleCrane-4: mittlere Kranspielzeit: 89 Rüstdauer: 34 Summe:123
+
+mittlere Kranspiele pro LoadUnit: 1.1748466257668713
