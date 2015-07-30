@@ -1,0 +1,11 @@
+#########################
+Eingeplante Operationen per Job
+#########################
+#########################
+Nicht Eingeplante Operationen
+2147483647 : LoadUnitJob{ISO168: Slot{598,(343.82900000000006, 43.55),Wagon{52, train=1}}-->Slot{944,(303.829, 61.349999999999994),Wagon{225, train=6}} }
+2147483647 : LoadUnitJob{ISO117: Slot{530,(363.82899999999995, 19.8),Wagon{18, train=0}}-->Slot{598,(343.82900000000006, 43.55),Wagon{52, train=1}} }
+2147483647 : LoadUnitJob{ISO214: SimpleSubStorageRow{424 425 }-->Slot{530,(363.82899999999995, 19.8),Wagon{18, train=0}} }
+2147483647 : LoadUnitJob{ISO797: Slot{1265,(13.053999999999998, 7.65),Wagon{385, train=11}}-->Slot{1205,(113.05400000000003, 53.55),Wagon{355, train=10}} }
+2147483647 : LoadUnitJob{ISO940: Slot{1476,(23.829000000000008, 19.8),Wagon{491, train=14}}-->Slot{1212,(183.82899999999995, 53.55),Wagon{359, train=10}} }
+2147483647 : LoadUnitJob{ISO707: Slot{1230,(363.82899999999995, 53.55),Wagon{368, train=10}}-->Slot{1510,(363.82899999999995, 19.8),Wagon{508, train=14}} }

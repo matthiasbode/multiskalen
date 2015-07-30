@@ -1,0 +1,38 @@
+#########################
+Eingeplante Operationen per Job
+#########################
+LoadUnitJob{ISO282: Slot{726,(223.829, 53.55),Wagon{116, train=3}}-->Slot{1494,(203.829, 19.8),Wagon{500, train=14}} }
+	02.02.2011;23:00:00	02.02.2011;23:12:55	DefaultStoreOperation{number=52142, lu=TwistLockLoadUnit[id=ISO282, 6.058x2.438x2.591], resource=Slot{726,(223.829, 53.55),Wagon{116, train=3}}, duration=775224}	
+	02.02.2011;23:12:55	02.02.2011;23:14:35	MultiScaleTransport:  : LU [ISO282]FROM [Slot{726,(223.829, 53.55),Wagon{116, train=3}}] TO [SimpleSubStorageRow{55 56 }] VIA [[Crane{1}]] Duration:100225	RoutingTransportOperation 419
+	02.02.2011;23:14:35	03.02.2011;04:32:09	DefaultStoreOperation{number=1426781990, lu=TwistLockLoadUnit[id=ISO282, 6.058x2.438x2.591], resource=SimpleSubStorageRow{55 56 }, duration=19054110}	
+	03.02.2011;04:32:09	03.02.2011;04:34:29	MultiScaleTransport:  : LU [ISO282]FROM [SimpleSubStorageRow{55 56 }] TO [Slot{1494,(203.829, 19.8),Wagon{500, train=14}}] VIA [[Crane{1}]] Duration:139443	RoutingTransportOperation 420
+	03.02.2011;04:34:29	03.02.2011;06:00:00	DefaultStoreOperation{number=1426807516, lu=TwistLockLoadUnit[id=ISO282, 6.058x2.438x2.591], resource=Slot{1494,(203.829, 19.8),Wagon{500, train=14}}, duration=5130998}	
+-----------------
+
+LoadUnitJob{ISO342: Slot{794,(203.829, 7.65),Wagon{150, train=4}}-->Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}} }
+	02.02.2011;23:20:00	03.02.2011;00:32:17	DefaultStoreOperation{number=52144, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=Slot{794,(203.829, 7.65),Wagon{150, train=4}}, duration=4337169}	
+	03.02.2011;00:32:17	03.02.2011;00:33:39	MultiScaleTransport:  : LU [ISO342]FROM [Slot{794,(203.829, 7.65),Wagon{150, train=4}}] TO [SimpleSubStorageRow{283 284 }] VIA [[Crane{1}]] Duration:82680	RoutingTransportOperation 441
+	03.02.2011;00:33:39	03.02.2011;04:36:44	DefaultStoreOperation{number=1426782027, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=SimpleSubStorageRow{283 284 }, duration=14584393}	
+	03.02.2011;04:36:44	03.02.2011;04:38:48	MultiScaleTransport:  : LU [ISO342]FROM [SimpleSubStorageRow{283 284 }] TO [Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}}] VIA [[Crane{1}]] Duration:124743	RoutingTransportOperation 442
+	03.02.2011;04:38:48	03.02.2011;06:00:00	DefaultStoreOperation{number=1426807521, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}}, duration=4871015}	
+-----------------
+
+LoadUnitJob{ISO542: Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}-->Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}} }
+	03.02.2011;00:51:40	03.02.2011;01:40:32	DefaultStoreOperation{number=52185, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}, duration=2932539}	
+	03.02.2011;01:40:32	03.02.2011;01:42:02	MultiScaleTransport:  : LU [ISO542]FROM [Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}] TO [SimpleSubStorageRow{268 269 270 271 }] VIA [[Crane{0}]] Duration:90240	RoutingTransportOperation 793
+	03.02.2011;01:42:02	03.02.2011;04:34:29	DefaultStoreOperation{number=1426782081, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=SimpleSubStorageRow{268 269 270 271 }, duration=10346223}	
+	03.02.2011;04:34:29	03.02.2011;04:36:44	MultiScaleTransport:  : LU [ISO542]FROM [SimpleSubStorageRow{268 269 270 271 }] TO [Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}}] VIA [[Crane{1}]] Duration:135240	RoutingTransportOperation 794
+	03.02.2011;04:36:44	03.02.2011;06:00:00	DefaultStoreOperation{number=1426807519, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}}, duration=4995758}	
+-----------------
+
+LoadUnitJob{ISO928: Slot{1494,(203.829, 19.8),Wagon{500, train=14}}-->Lager Sued }
+	03.02.2011;03:43:20	03.02.2011;04:30:04	DefaultStoreOperation{number=52356, lu=TwistLockLoadUnit[id=ISO928, 6.058x2.438x2.591], resource=Slot{1494,(203.829, 19.8),Wagon{500, train=14}}, duration=2804816}	
+	03.02.2011;04:30:04	03.02.2011;04:32:09	MultiScaleTransport:  : LU [ISO928]FROM [Slot{1494,(203.829, 19.8),Wagon{500, train=14}}] TO [SimpleSubStorageRow{256 ... 328 }] VIA [[Crane{1}]] Duration:124743	RoutingTransportOperation 2143
+	03.02.2011;04:32:09	03.02.2011;07:00:00	DefaultStoreOperation{number=1426807513, lu=TwistLockLoadUnit[id=ISO928, 6.058x2.438x2.591], resource=SimpleSubStorageRow{256 ... 328 }, duration=8870441}	
+-----------------
+
+#########################
+Nicht Eingeplante Operationen
+2147483647 : LoadUnitJob{ISO212: SimpleSubStorageRow{384 385 386 387 }-->Slot{523,(293.054, 19.8),Wagon{14, train=0}} }
+2147483647 : LoadUnitJob{ISO380: Slot{797,(233.05399999999997, 7.65),Wagon{151, train=4}}-->Slot{535,(413.054, 19.8),Wagon{20, train=0}} }
+2147483647 : LoadUnitJob{ISO912: Slot{1423,(193.05399999999997, 61.349999999999994),Wagon{464, train=13}}-->Slot{991,(73.05400000000002, 19.8),Wagon{248, train=7}} }

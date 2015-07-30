@@ -1,0 +1,654 @@
+{
+  "r": "Crane{3}",
+  "dt": 600000,
+  "buckets": [
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296680400000
+        },
+        "untilWhen": {
+          "value": 1296681000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 443350.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296681000000
+        },
+        "untilWhen": {
+          "value": 1296681600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 414401.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296681600000
+        },
+        "untilWhen": {
+          "value": 1296682200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 426495.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296682200000
+        },
+        "untilWhen": {
+          "value": 1296682800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 251222.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296682800000
+        },
+        "untilWhen": {
+          "value": 1296683400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 386772.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296683400000
+        },
+        "untilWhen": {
+          "value": 1296684000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 418689.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296684000000
+        },
+        "untilWhen": {
+          "value": 1296684600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 384475.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296684600000
+        },
+        "untilWhen": {
+          "value": 1296685200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 414199.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296685200000
+        },
+        "untilWhen": {
+          "value": 1296685800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 431363.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296685800000
+        },
+        "untilWhen": {
+          "value": 1296686400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 386148.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296686400000
+        },
+        "untilWhen": {
+          "value": 1296687000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 420459.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296687000000
+        },
+        "untilWhen": {
+          "value": 1296687600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 425671.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296687600000
+        },
+        "untilWhen": {
+          "value": 1296688200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 384301.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296688200000
+        },
+        "untilWhen": {
+          "value": 1296688800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 434732.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296688800000
+        },
+        "untilWhen": {
+          "value": 1296689400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 356627.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296689400000
+        },
+        "untilWhen": {
+          "value": 1296690000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 444618.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296690000000
+        },
+        "untilWhen": {
+          "value": 1296690600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 455231.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296690600000
+        },
+        "untilWhen": {
+          "value": 1296691200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 328210.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296691200000
+        },
+        "untilWhen": {
+          "value": 1296691800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 435770.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296691800000
+        },
+        "untilWhen": {
+          "value": 1296692400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 443530.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296692400000
+        },
+        "untilWhen": {
+          "value": 1296693000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 372623.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296693000000
+        },
+        "untilWhen": {
+          "value": 1296693600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 382376.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296693600000
+        },
+        "untilWhen": {
+          "value": 1296694200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 447722.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296694200000
+        },
+        "untilWhen": {
+          "value": 1296694800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 390022.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296694800000
+        },
+        "untilWhen": {
+          "value": 1296695400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 366530.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296695400000
+        },
+        "untilWhen": {
+          "value": 1296696000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 390196.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296696000000
+        },
+        "untilWhen": {
+          "value": 1296696600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 374904.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296696600000
+        },
+        "untilWhen": {
+          "value": 1296697200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 359735.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296697200000
+        },
+        "untilWhen": {
+          "value": 1296697800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 140450.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296697800000
+        },
+        "untilWhen": {
+          "value": 1296698400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 340585.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296698400000
+        },
+        "untilWhen": {
+          "value": 1296699000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 284272.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296699000000
+        },
+        "untilWhen": {
+          "value": 1296699600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 343752.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296699600000
+        },
+        "untilWhen": {
+          "value": 1296700200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 321296.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296700200000
+        },
+        "untilWhen": {
+          "value": 1296700800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296700800000
+        },
+        "untilWhen": {
+          "value": 1296701400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 297017.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296701400000
+        },
+        "untilWhen": {
+          "value": 1296702000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 400363.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296702000000
+        },
+        "untilWhen": {
+          "value": 1296702600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 360932.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296702600000
+        },
+        "untilWhen": {
+          "value": 1296703200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 56978.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296703200000
+        },
+        "untilWhen": {
+          "value": 1296703800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296703800000
+        },
+        "untilWhen": {
+          "value": 1296704400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296704400000
+        },
+        "untilWhen": {
+          "value": 1296705000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296705000000
+        },
+        "untilWhen": {
+          "value": 1296705600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296705600000
+        },
+        "untilWhen": {
+          "value": 1296706200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296706200000
+        },
+        "untilWhen": {
+          "value": 1296706800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296706800000
+        },
+        "untilWhen": {
+          "value": 1296707400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296707400000
+        },
+        "untilWhen": {
+          "value": 1296708000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296708000000
+        },
+        "untilWhen": {
+          "value": 1296708600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296708600000
+        },
+        "untilWhen": {
+          "value": 1296709200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296709200000
+        },
+        "untilWhen": {
+          "value": 1296709800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296709800000
+        },
+        "untilWhen": {
+          "value": 1296710400000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296710400000
+        },
+        "untilWhen": {
+          "value": 1296711000000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296711000000
+        },
+        "untilWhen": {
+          "value": 1296711600000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296711600000
+        },
+        "untilWhen": {
+          "value": 1296712200000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    },
+    {
+      "timeSlot": {
+        "fromWhen": {
+          "value": 1296712200000
+        },
+        "untilWhen": {
+          "value": 1296712800000
+        }
+      },
+      "bucketWidth": 600000,
+      "load": 0.0
+    }
+  ]
+}
