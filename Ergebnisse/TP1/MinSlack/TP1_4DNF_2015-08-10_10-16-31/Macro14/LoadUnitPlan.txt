@@ -1,0 +1,30 @@
+#########################
+Eingeplante Operationen per Job
+#########################
+LoadUnitJob{ISO342: Slot{794,(203.829, 7.65),Wagon{150, train=4}}-->Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}} }
+	02.02.2011;23:20:00	02.02.2011;23:34:36	DefaultStoreOperation{number=52144, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=Slot{794,(203.829, 7.65),Wagon{150, train=4}}, duration=876777}	
+	02.02.2011;23:34:36	02.02.2011;23:36:10	MultiScaleTransport:  : LU [ISO342]FROM [Slot{794,(203.829, 7.65),Wagon{150, train=4}}] TO [SimpleSubStorageRow{277 278 }] VIA [[Crane{1}]] Duration:93818	RoutingTransportOperation 441
+	02.02.2011;23:36:10	03.02.2011;04:29:54	DefaultStoreOperation{number=1203549505, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=SimpleSubStorageRow{277 278 }, duration=17623975}	
+	03.02.2011;04:29:54	03.02.2011;04:32:01	MultiScaleTransport:  : LU [ISO342]FROM [SimpleSubStorageRow{277 278 }] TO [Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}}] VIA [[Crane{1}]] Duration:126842	RoutingTransportOperation 442
+	03.02.2011;04:32:01	03.02.2011;06:00:00	DefaultStoreOperation{number=1203571043, lu=TwistLockLoadUnit[id=ISO342, 6.058x2.438x2.591], resource=Slot{1492,(183.82899999999995, 19.8),Wagon{499, train=14}}, duration=5278588}	
+-----------------
+
+LoadUnitJob{ISO452: Slot{928,(143.82899999999995, 61.349999999999994),Wagon{217, train=6}}-->Slot{1488,(143.82899999999995, 19.8),Wagon{497, train=14}} }
+	03.02.2011;00:00:00	03.02.2011;00:02:27	DefaultStoreOperation{number=52155, lu=TwistLockLoadUnit[id=ISO452, 6.058x2.438x2.591], resource=Slot{928,(143.82899999999995, 61.349999999999994),Wagon{217, train=6}}, duration=147040}	
+	03.02.2011;00:02:27	03.02.2011;00:03:39	MultiScaleTransport:  : LU [ISO452]FROM [Slot{928,(143.82899999999995, 61.349999999999994),Wagon{217, train=6}}] TO [SimpleSubStorageRow{47 48 }] VIA [[Crane{0}]] Duration:72386	RoutingTransportOperation 552
+	03.02.2011;00:03:39	03.02.2011;04:34:07	DefaultStoreOperation{number=1203549518, lu=TwistLockLoadUnit[id=ISO452, 6.058x2.438x2.591], resource=SimpleSubStorageRow{47 48 }, duration=16227945}	
+	03.02.2011;04:34:07	03.02.2011;04:36:26	MultiScaleTransport:  : LU [ISO452]FROM [SimpleSubStorageRow{47 48 }] TO [Slot{1488,(143.82899999999995, 19.8),Wagon{497, train=14}}] VIA [[Crane{1}]] Duration:139443	RoutingTransportOperation 553
+	03.02.2011;04:36:26	03.02.2011;06:00:00	DefaultStoreOperation{number=1203571048, lu=TwistLockLoadUnit[id=ISO452, 6.058x2.438x2.591], resource=Slot{1488,(143.82899999999995, 19.8),Wagon{497, train=14}}, duration=5013186}	
+-----------------
+
+LoadUnitJob{ISO542: Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}-->Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}} }
+	03.02.2011;00:51:40	03.02.2011;00:59:50	DefaultStoreOperation{number=52185, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}, duration=490777}	
+	03.02.2011;00:59:50	03.02.2011;01:01:11	MultiScaleTransport:  : LU [ISO542]FROM [Slot{1001,(173.05399999999997, 19.8),Wagon{253, train=7}}] TO [SimpleSubStorageRow{273 274 275 276 }] VIA [[Crane{0}]] Duration:80959	RoutingTransportOperation 793
+	03.02.2011;01:01:11	03.02.2011;04:32:01	DefaultStoreOperation{number=1203549563, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=SimpleSubStorageRow{273 274 275 276 }, duration=12649676}	
+	03.02.2011;04:32:01	03.02.2011;04:34:07	MultiScaleTransport:  : LU [ISO542]FROM [SimpleSubStorageRow{273 274 275 276 }] TO [Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}}] VIA [[Crane{1}]] Duration:125959	RoutingTransportOperation 794
+	03.02.2011;04:34:07	03.02.2011;06:00:00	DefaultStoreOperation{number=1203571046, lu=TwistLockLoadUnit[id=ISO542, 12.192x2.438x2.591], resource=Slot{1491,(173.05399999999997, 19.8),Wagon{498, train=14}}, duration=5152629}	
+-----------------
+
+#########################
+Nicht Eingeplante Operationen
+2147483647 : LoadUnitJob{ISO380: Slot{797,(233.05399999999997, 7.65),Wagon{151, train=4}}-->Slot{535,(413.054, 19.8),Wagon{20, train=0}} }

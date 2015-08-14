@@ -1,0 +1,20 @@
+#########################
+Eingeplante Operationen per Job
+#########################
+#########################
+Nicht Eingeplante Operationen
+2147483647 : LoadUnitJob{ISO442: Slot{885,(413.054, 12.55),Wagon{195, train=5}}-->Slot{605,(413.054, 43.55),Wagon{55, train=1}} }
+2147483647 : LoadUnitJob{ISO148: Slot{535,(413.054, 19.8),Wagon{20, train=0}}-->Slot{885,(413.054, 12.55),Wagon{195, train=5}} }
+2147483647 : LoadUnitJob{ISO380: Slot{797,(233.05399999999997, 7.65),Wagon{151, train=4}}-->Slot{535,(413.054, 19.8),Wagon{20, train=0}} }
+2147483647 : LoadUnitJob{ISO212: SimpleSubStorageRow{384 385 386 387 }-->Slot{523,(293.054, 19.8),Wagon{14, train=0}} }
+2147483647 : LoadUnitJob{ISO458: Slot{956,(423.829, 61.349999999999994),Wagon{231, train=6}}-->Slot{1096,(423.829, 43.55),Wagon{301, train=8}} }
+2147483647 : LoadUnitJob{ISO540: Slot{1029,(453.054, 19.8),Wagon{267, train=7}}-->Slot{1449,(453.054, 61.349999999999994),Wagon{477, train=13}} }
+2147483647 : LoadUnitJob{ISO663: Slot{1177,(533.0540000000001, 48.55),Wagon{341, train=9}}-->Slot{1029,(453.054, 19.8),Wagon{267, train=7}} }
+2147483647 : LoadUnitJob{ISO863: Slot{1428,(243.829, 61.349999999999994),Wagon{467, train=13}}-->Slot{1498,(243.829, 19.8),Wagon{502, train=14}} }
+2147483647 : LoadUnitJob{ISO643: Slot{1146,(223.829, 48.55),Wagon{326, train=9}}-->Slot{1428,(243.829, 61.349999999999994),Wagon{467, train=13}} }
+2147483647 : LoadUnitJob{ISO723: Slot{1221,(273.054, 53.55),Wagon{363, train=10}}-->Slot{1289,(253.05399999999997, 7.65),Wagon{397, train=11}} }
+2147483647 : LoadUnitJob{ISO959: Slot{1487,(133.05399999999997, 19.8),Wagon{496, train=14}}-->Slot{1221,(273.054, 53.55),Wagon{363, train=10}} }
+2147483647 : LoadUnitJob{ISO940: Slot{1476,(23.829000000000008, 19.8),Wagon{491, train=14}}-->Slot{1212,(183.82899999999995, 53.55),Wagon{359, train=10}} }
+2147483647 : LoadUnitJob{SBY134: Slot{1206,(123.82899999999995, 53.55),Wagon{356, train=10}}-->Slot{1486,(123.82899999999995, 19.8),Wagon{496, train=14}} }
+2147483647 : LoadUnitJob{ISO712: Slot{1233,(393.0540000000001, 53.55),Wagon{369, train=10}}-->Slot{1513,(393.0540000000001, 19.8),Wagon{509, train=14}} }
+2147483647 : LoadUnitJob{ISO707: Slot{1230,(363.82899999999995, 53.55),Wagon{368, train=10}}-->Slot{1510,(363.82899999999995, 19.8),Wagon{508, train=14}} }

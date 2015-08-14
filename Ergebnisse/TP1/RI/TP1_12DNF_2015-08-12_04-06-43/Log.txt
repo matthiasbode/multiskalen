@@ -1,0 +1,988 @@
+1439345204160	0:TimeSlot{02.02.2011;22:00:00, 03.02.2011;00:16:40} Gleis: RailroadTrack{2}java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0]
+1439345204160	1:TimeSlot{02.02.2011;22:20:00, 03.02.2011;00:36:40} Gleis: RailroadTrack{3}java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0]
+1439345204160	2:TimeSlot{02.02.2011;22:40:00, 03.02.2011;00:56:40} Gleis: RailroadTrack{4}java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0]
+1439345204160	3:TimeSlot{02.02.2011;23:00:00, 03.02.2011;01:16:40} Gleis: RailroadTrack{5}java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0]
+1439345204160	4:TimeSlot{02.02.2011;23:20:00, 03.02.2011;01:36:40} Gleis: RailroadTrack{0}java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.800000000000001]
+1439345204160	5:TimeSlot{02.02.2011;23:40:00, 03.02.2011;01:56:40} Gleis: RailroadTrack{1}java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0]
+1439345204160	6:TimeSlot{03.02.2011;00:00:00, 03.02.2011;02:16:40} Gleis: RailroadTrack{6}java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.799999999999997]
+1439345204160	7:TimeSlot{03.02.2011;00:51:40, 03.02.2011;03:08:20} Gleis: RailroadTrack{2}java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0]
+1439345204160	8:TimeSlot{03.02.2011;01:11:40, 03.02.2011;03:28:20} Gleis: RailroadTrack{3}java.awt.geom.Rectangle2D$Double[x=0.0,y=41.05,w=700.0,h=5.0]
+1439345204176	9:TimeSlot{03.02.2011;01:31:40, 03.02.2011;03:48:20} Gleis: RailroadTrack{4}java.awt.geom.Rectangle2D$Double[x=0.0,y=46.05,w=700.0,h=5.0]
+1439345204176	10:TimeSlot{03.02.2011;01:51:40, 03.02.2011;04:08:20} Gleis: RailroadTrack{5}java.awt.geom.Rectangle2D$Double[x=0.0,y=51.05,w=700.0,h=5.0]
+1439345204176	11:TimeSlot{03.02.2011;02:11:40, 03.02.2011;04:28:20} Gleis: RailroadTrack{0}java.awt.geom.Rectangle2D$Double[x=0.0,y=5.25,w=700.0,h=4.800000000000001]
+1439345204176	12:TimeSlot{03.02.2011;02:31:40, 03.02.2011;04:48:20} Gleis: RailroadTrack{1}java.awt.geom.Rectangle2D$Double[x=0.0,y=10.05,w=700.0,h=5.0]
+1439345204176	13:TimeSlot{03.02.2011;02:51:40, 03.02.2011;05:08:20} Gleis: RailroadTrack{6}java.awt.geom.Rectangle2D$Double[x=0.0,y=58.949999999999996,w=700.0,h=4.799999999999997]
+1439345204176	14:TimeSlot{03.02.2011;03:43:20, 03.02.2011;06:00:00} Gleis: RailroadTrack{2}java.awt.geom.Rectangle2D$Double[x=0.0,y=17.3,w=700.0,h=5.0]
+1439345213958	Start bei Generation -1
+1439345334089	Parallel_Co_evolving_Initial fittest: -22.00000	 Fittest Individual: TransshipmentSuperIndividual_328{ImplicitOperationIndividual{-1614335157},ImplicitModeIndividual{147798274}}(22/0.00000/0.00000)
+1439345334105	Parallel_Co_evolving_Initial fittest: -26.00000	 Fittest Individual: TransshipmentSuperIndividual_297{ImplicitOperationIndividual{1495134732},ImplicitModeIndividual{1363939558}}(26/0.00000/0.00000)
+1439345334105	Generationsdurchlauf: 0
+1439345477464	Fittest SuperIndividuum:  (198)[-15.0, 55.00656356227392]
+1439345477464	Generationsdurchlauf: 1
+1439345627548	Stagnation: 0
+1439345627548	Fittest SuperIndividuum:  (198)[-14.0, 55.19970404311637]
+1439345627548	Generationsdurchlauf: 2
+1439345776969	Stagnation: 0
+1439345776969	Fittest SuperIndividuum:  (198)[-8.0, 54.15923510770373]
+1439345776969	Generationsdurchlauf: 3
+1439345940265	Stagnation: 0
+1439345940265	Fittest SuperIndividuum:  (198)[-6.0, 53.816989948024606]
+1439345940280	Generationsdurchlauf: 4
+1439346070610	Stagnation: 0
+1439346070610	Fittest SuperIndividuum:  (198)[-6.0, 54.35409836625269]
+1439346070610	Generationsdurchlauf: 5
+1439346220711	Stagnation: 0
+1439346220711	Fittest SuperIndividuum:  (198)[-6.0, 54.48590276694304]
+1439346220711	Generationsdurchlauf: 6
+1439346389244	Stagnation: 0
+1439346389244	Fittest SuperIndividuum:  (198)[-3.0, 54.019100168174546]
+1439346389244	Generationsdurchlauf: 7
+1439346562481	Stagnation: 0
+1439346562481	Fittest SuperIndividuum:  (198)[-3.0, 54.35111647971042]
+1439346562481	Generationsdurchlauf: 8
+1439346745457	Stagnation: 0
+1439346745457	Fittest SuperIndividuum:  (198)[-3.0, 54.55635127995927]
+1439346745457	Generationsdurchlauf: 9
+1439346930252	Stagnation: 0
+1439346930252	Fittest SuperIndividuum:  (198)[-2.0, 53.9847323110379]
+1439346930252	Generationsdurchlauf: 10
+1439347108358	Stagnation: 0
+1439347108358	Fittest SuperIndividuum:  (198)[-2.0, 54.303579518767684]
+1439347108467	Win version: 0x25800306 = 629146374 (Windows Vista)
+1439347193319	Fittest Individual: 0: ListIndividual{6396}
+1439347193334	fit: [0.0, 0.0, -1.296682118314E12]
+1439347269899	Fittest Individual: 1: ListIndividual{8753}
+1439347269899	fit: [0.0, 0.0, -1.296682147138E12]
+1439347269899	Stagnation: 1
+1439347347966	Fittest Individual: 2: ListIndividual{11781}
+1439347347966	fit: [0.0, 0.0, -1.296682110888E12]
+1439347347966	Stagnation: 0
+1439347426493	Fittest Individual: 3: ListIndividual{13400}
+1439347426493	fit: [0.0, 0.0, -1.296682099286E12]
+1439347426493	Stagnation: 0
+1439347503755	Fittest Individual: 4: ListIndividual{15487}
+1439347503771	fit: [0.0, 0.0, -1.296682099897E12]
+1439347503771	Stagnation: 1
+1439347584711	Fittest Individual: 5: ListIndividual{16244}
+1439347584727	fit: [0.0, 0.0, -1.296682098602E12]
+1439347584727	Stagnation: 0
+1439347665430	Fittest Individual: 6: ListIndividual{18878}
+1439347665430	fit: [0.0, 0.0, -1.296682098951E12]
+1439347665430	Stagnation: 1
+1439347750554	Fittest Individual: 7: ListIndividual{20929}
+1439347750554	fit: [0.0, 0.0, -1.296682099286E12]
+1439347750554	Stagnation: 2
+1439347840866	Fittest Individual: 8: ListIndividual{23783}
+1439347840866	fit: [0.0, 0.0, -1.296682099286E12]
+1439347840882	Stagnation: 3
+1439347930254	Fittest Individual: 9: ListIndividual{25591}
+1439347930270	fit: [0.0, 0.0, -1.296682099286E12]
+1439347930270	Stagnation: 4
+1439347932345	Start bei Generation -1
+1439348111159	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_25908{ImplicitOperationIndividual{-403412683},ImplicitModeIndividual{-1583036858}}(3/0.00000/0.00000)
+1439348111175	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_26038{ImplicitOperationIndividual{-403412683},ImplicitModeIndividual{1789169460}}(3/0.00000/0.00000)
+1439348111175	Generationsdurchlauf: 0
+1439348285621	Fittest SuperIndividuum:  (199)[-3.0, 53.154569033728855]
+1439348285621	Generationsdurchlauf: 1
+1439348455644	Stagnation: 0
+1439348455644	Fittest SuperIndividuum:  (199)[-2.0, 53.522019679018605]
+1439348455660	Generationsdurchlauf: 2
+1439348646720	Stagnation: 0
+1439348646720	Fittest SuperIndividuum:  (199)[-1.0, 52.946051304250105]
+1439348646735	Generationsdurchlauf: 3
+1439348844590	Stagnation: 0
+1439348844590	Fittest SuperIndividuum:  (199)[-1.0, 52.94622346686121]
+1439348844590	Generationsdurchlauf: 4
+1439349030077	Stagnation: 0
+1439349030077	Fittest SuperIndividuum:  (199)[-1.0, 53.11443818627633]
+1439349030077	Generationsdurchlauf: 5
+1439349233167	Stagnation: 1
+1439349233167	Fittest SuperIndividuum:  (199)[-1.0, 53.11443818627633]
+1439349233167	Generationsdurchlauf: 6
+1439349438160	Stagnation: 0
+1439349438160	Fittest SuperIndividuum:  (199)[-1.0, 53.235550818687805]
+1439349438160	Generationsdurchlauf: 7
+1439349639442	Stagnation: 0
+1439349639442	Fittest SuperIndividuum:  (199)[-1.0, 53.42052219347433]
+1439349639442	Generationsdurchlauf: 8
+1439349819625	Stagnation: 0
+1439349819625	Fittest SuperIndividuum:  (199)[-1.0, 53.421142504348396]
+1439349819625	Generationsdurchlauf: 9
+1439350001823	Stagnation: 0
+1439350001823	Fittest SuperIndividuum:  (199)[-1.0, 53.48592379034996]
+1439350001823	Generationsdurchlauf: 10
+1439350192422	Stagnation: 0
+1439350192422	Fittest SuperIndividuum:  (199)[-1.0, 53.55604369651773]
+1439350217172	Fittest Individual: 0: ListIndividual{32877}
+1439350217172	fit: [0.0, 0.0, -1.296683914605E12]
+1439350234387	Fittest Individual: 1: ListIndividual{33897}
+1439350234403	fit: [0.0, 0.0, -1.296683890126E12]
+1439350234403	Stagnation: 0
+1439350251106	Fittest Individual: 2: ListIndividual{38219}
+1439350251122	fit: [0.0, 0.0, -1.296683867953E12]
+1439350251122	Stagnation: 0
+1439350267792	Fittest Individual: 3: ListIndividual{39908}
+1439350267792	fit: [0.0, 0.0, -1.296683837912E12]
+1439350267792	Stagnation: 0
+1439350285060	Fittest Individual: 4: ListIndividual{41917}
+1439350285060	fit: [0.0, 0.0, -1.296683853784E12]
+1439350285060	Stagnation: 1
+1439350301982	Fittest Individual: 5: ListIndividual{43113}
+1439350301982	fit: [0.0, 0.0, -1.296683871619E12]
+1439350301982	Stagnation: 2
+1439350318490	Fittest Individual: 6: ListIndividual{45460}
+1439350318490	fit: [0.0, 0.0, -1.296683817177E12]
+1439350318505	Stagnation: 0
+1439350335131	Fittest Individual: 7: ListIndividual{47502}
+1439350335131	fit: [0.0, 0.0, -1.296683843348E12]
+1439350335131	Stagnation: 1
+1439350352377	Fittest Individual: 8: ListIndividual{49249}
+1439350352377	fit: [0.0, 0.0, -1.296683850576E12]
+1439350352377	Stagnation: 2
+1439350369837	Fittest Individual: 9: ListIndividual{51295}
+1439350369852	fit: [0.0, 0.0, -1.29668383185E12]
+1439350369852	Stagnation: 0
+1439350387310	Fittest Individual: 10: ListIndividual{52893}
+1439350387310	fit: [0.0, 0.0, -1.296683824863E12]
+1439350387310	Stagnation: 0
+1439350387998	Start bei Generation -1
+1439350576292	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_53918{ImplicitOperationIndividual{-1144104931},ImplicitModeIndividual{464008911}}(3/0.00000/0.00000)
+1439350576308	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_53830{ImplicitOperationIndividual{1554505121},ImplicitModeIndividual{464008911}}(3/0.00000/0.00000)
+1439350576308	Generationsdurchlauf: 0
+1439350757295	Fittest SuperIndividuum:  (196)[-1.0, 52.34627545531256]
+1439350757311	Generationsdurchlauf: 1
+1439350958193	Stagnation: 0
+1439350958193	Fittest SuperIndividuum:  (196)[-1.0, 52.58465571449375]
+1439350958193	Generationsdurchlauf: 2
+1439351155779	Stagnation: 0
+1439351155779	Fittest SuperIndividuum:  (196)[-1.0, 53.010537664820724]
+1439351155779	Generationsdurchlauf: 3
+1439351360343	Stagnation: 0
+1439351360343	Fittest SuperIndividuum:  (196)[-1.0, 53.30823143671605]
+1439351360343	Generationsdurchlauf: 4
+1439351556208	Stagnation: 0
+1439351556208	Fittest SuperIndividuum:  (196)[-1.0, 53.30866317988808]
+1439351556208	Generationsdurchlauf: 5
+1439351755419	Stagnation: 0
+1439351755419	Fittest SuperIndividuum:  (196)[-1.0, 53.37561413000707]
+1439351755419	Generationsdurchlauf: 6
+1439351949292	Stagnation: 0
+1439351949292	Fittest SuperIndividuum:  (196)[-1.0, 53.39505184242193]
+1439351949292	Generationsdurchlauf: 7
+1439352130907	Stagnation: 0
+1439352130907	Fittest SuperIndividuum:  (196)[-1.0, 53.44714529502548]
+1439352130907	Generationsdurchlauf: 8
+1439352317737	Stagnation: 1
+1439352317737	Fittest SuperIndividuum:  (196)[-1.0, 53.44714529502548]
+1439352317737	Generationsdurchlauf: 9
+1439352506203	Stagnation: 0
+1439352506203	Fittest SuperIndividuum:  (196)[-1.0, 53.458396145487484]
+1439352506203	Generationsdurchlauf: 10
+1439352706289	Stagnation: 0
+1439352706289	Fittest SuperIndividuum:  (196)[-1.0, 53.46707208395148]
+1439352741764	Fittest Individual: 0: ListIndividual{61204}
+1439352741764	fit: [0.0, 0.0, -1.296685838853E12]
+1439352771108	Fittest Individual: 1: ListIndividual{61909}
+1439352771108	fit: [0.0, 0.0, -1.296685844037E12]
+1439352771108	Stagnation: 1
+1439352800344	Fittest Individual: 2: ListIndividual{68827}
+1439352800344	fit: [0.0, 0.0, -1.296685801405E12]
+1439352800344	Stagnation: 0
+1439352828888	Fittest Individual: 3: ListIndividual{72298}
+1439352828888	fit: [0.0, 0.0, -1.29668580647E12]
+1439352828888	Stagnation: 1
+1439352857011	Fittest Individual: 4: ListIndividual{77515}
+1439352857011	fit: [0.0, 0.0, -1.296685798051E12]
+1439352857011	Stagnation: 0
+1439352883992	Fittest Individual: 5: ListIndividual{77900}
+1439352883992	fit: [0.0, 0.0, -1.296685773283E12]
+1439352883992	Stagnation: 0
+1439352911658	Fittest Individual: 6: ListIndividual{86237}
+1439352911674	fit: [0.0, 0.0, -1.296685762981E12]
+1439352911674	Stagnation: 0
+1439352938947	Fittest Individual: 7: ListIndividual{89322}
+1439352938947	fit: [0.0, 0.0, -1.296685750945E12]
+1439352938947	Stagnation: 0
+1439352965833	Fittest Individual: 8: ListIndividual{91752}
+1439352965833	fit: [0.0, 0.0, -1.296685722748E12]
+1439352965833	Stagnation: 0
+1439352993673	Fittest Individual: 9: ListIndividual{96242}
+1439352993673	fit: [0.0, 0.0, -1.296685693064E12]
+1439352993673	Stagnation: 0
+1439353020692	Fittest Individual: 10: ListIndividual{98267}
+1439353020692	fit: [0.0, 0.0, -1.296685724923E12]
+1439353020692	Stagnation: 1
+1439353021661	Start bei Generation -1
+1439353186168	Parallel_Co_evolving_Initial fittest: -2.00000	 Fittest Individual: TransshipmentSuperIndividual_100076{ImplicitOperationIndividual{875248638},ImplicitModeIndividual{319761840}}(2/0.00000/0.00000)
+1439353186183	Parallel_Co_evolving_Initial fittest: -2.00000	 Fittest Individual: TransshipmentSuperIndividual_100045{ImplicitOperationIndividual{1717543780},ImplicitModeIndividual{1787115475}}(2/0.00000/0.00000)
+1439353186199	Generationsdurchlauf: 0
+1439353363131	Fittest SuperIndividuum:  (198)[-2.0, 51.81747369710191]
+1439353363131	Generationsdurchlauf: 1
+1439353524951	Stagnation: 0
+1439353524951	Fittest SuperIndividuum:  (198)[-2.0, 51.821770103135464]
+1439353524951	Generationsdurchlauf: 2
+1439353667078	Stagnation: 0
+1439353667093	Fittest SuperIndividuum:  (198)[-2.0, 51.822860735602575]
+1439353667093	Generationsdurchlauf: 3
+1439353825147	Stagnation: 0
+1439353825147	Fittest SuperIndividuum:  (198)[-2.0, 51.82675182653734]
+1439353825163	Generationsdurchlauf: 4
+1439353968482	Stagnation: 0
+1439353968482	Fittest SuperIndividuum:  (198)[-2.0, 51.831663682651744]
+1439353968482	Generationsdurchlauf: 5
+1439354114452	Stagnation: 0
+1439354114452	Fittest SuperIndividuum:  (198)[-2.0, 51.90206479223147]
+1439354114452	Generationsdurchlauf: 6
+1439354284593	Stagnation: 0
+1439354284593	Fittest SuperIndividuum:  (198)[-2.0, 51.97124365622825]
+1439354284593	Generationsdurchlauf: 7
+1439354446807	Stagnation: 1
+1439354446807	Fittest SuperIndividuum:  (198)[-2.0, 51.97124365622825]
+1439354446807	Generationsdurchlauf: 8
+1439354611878	Stagnation: 0
+1439354611878	Fittest SuperIndividuum:  (198)[-2.0, 51.97800290808914]
+1439354611878	Generationsdurchlauf: 9
+1439354775559	Stagnation: 0
+1439354775559	Fittest SuperIndividuum:  (198)[-2.0, 51.98447510379947]
+1439354775559	Generationsdurchlauf: 10
+1439354922824	Stagnation: 1
+1439354922824	Fittest SuperIndividuum:  (198)[-2.0, 51.98447510379947]
+1439354960814	Fittest Individual: 0: ListIndividual{107294}
+1439354960830	fit: [0.0, 0.0, -1.296687560644E12]
+1439354992462	Fittest Individual: 1: ListIndividual{111779}
+1439354992478	fit: [0.0, 0.0, -1.296687562397E12]
+1439354992478	Stagnation: 1
+1439355023822	Fittest Individual: 2: ListIndividual{114620}
+1439355023822	fit: [0.0, 0.0, -1.29668751004E12]
+1439355023822	Stagnation: 0
+1439355054746	Fittest Individual: 3: ListIndividual{117966}
+1439355054746	fit: [0.0, 0.0, -1.296687546396E12]
+1439355054746	Stagnation: 1
+1439355084049	Fittest Individual: 4: ListIndividual{124401}
+1439355084049	fit: [0.0, 0.0, -1.296687549385E12]
+1439355084049	Stagnation: 2
+1439355114656	Fittest Individual: 5: ListIndividual{129453}
+1439355114659	fit: [0.0, 0.0, -1.296687521735E12]
+1439355114661	Stagnation: 0
+1439355147143	Fittest Individual: 6: ListIndividual{133259}
+1439355147143	fit: [0.0, 0.0, -1.296687512786E12]
+1439355147143	Stagnation: 0
+1439355177817	Fittest Individual: 7: ListIndividual{138006}
+1439355177817	fit: [0.0, 0.0, -1.296687519459E12]
+1439355177817	Stagnation: 1
+1439355206102	Fittest Individual: 8: ListIndividual{141067}
+1439355206102	fit: [0.0, 0.0, -1.296687511377E12]
+1439355206102	Stagnation: 0
+1439355233537	Fittest Individual: 9: ListIndividual{148361}
+1439355233539	fit: [0.0, 0.0, -1.296687495246E12]
+1439355233541	Stagnation: 0
+1439355260202	Fittest Individual: 10: ListIndividual{149853}
+1439355260207	fit: [0.0, 0.0, -1.296687478106E12]
+1439355260209	Stagnation: 0
+1439355261223	Start bei Generation -1
+1439355382688	Parallel_Co_evolving_Initial fittest: -2.00000	 Fittest Individual: TransshipmentSuperIndividual_155869{ImplicitOperationIndividual{-475945221},ImplicitModeIndividual{-1680946899}}(2/0.00000/0.00000)
+1439355382704	Parallel_Co_evolving_Initial fittest: -2.00000	 Fittest Individual: TransshipmentSuperIndividual_155924{ImplicitOperationIndividual{1095687491},ImplicitModeIndividual{-183655522}}(2/0.00000/0.00000)
+1439355382719	Generationsdurchlauf: 0
+1439355502223	Fittest SuperIndividuum:  (198)[-2.0, 49.647637288109465]
+1439355502239	Generationsdurchlauf: 1
+1439355616790	Stagnation: 0
+1439355616790	Fittest SuperIndividuum:  (198)[-2.0, 49.66058441673915]
+1439355616790	Generationsdurchlauf: 2
+1439355725498	Stagnation: 0
+1439355725498	Fittest SuperIndividuum:  (198)[-2.0, 49.6610638127187]
+1439355725514	Generationsdurchlauf: 3
+1439355843253	Stagnation: 0
+1439355843253	Fittest SuperIndividuum:  (198)[-2.0, 49.66272616380359]
+1439355843269	Generationsdurchlauf: 4
+1439355954525	Stagnation: 0
+1439355954525	Fittest SuperIndividuum:  (198)[-2.0, 49.667012344335284]
+1439355954525	Generationsdurchlauf: 5
+1439356080905	Stagnation: 0
+1439356080905	Fittest SuperIndividuum:  (198)[-2.0, 49.70438483674484]
+1439356080905	Generationsdurchlauf: 6
+1439356198475	Stagnation: 1
+1439356198475	Fittest SuperIndividuum:  (198)[-2.0, 49.70438483674484]
+1439356198475	Generationsdurchlauf: 7
+1439356314784	Stagnation: 0
+1439356314784	Fittest SuperIndividuum:  (198)[-2.0, 49.70466122884928]
+1439356314784	Generationsdurchlauf: 8
+1439356436762	Stagnation: 0
+1439356436762	Fittest SuperIndividuum:  (198)[-2.0, 49.709588125223284]
+1439356436762	Generationsdurchlauf: 9
+1439356548659	Stagnation: 0
+1439356548659	Fittest SuperIndividuum:  (198)[-2.0, 49.71480066631751]
+1439356548659	Generationsdurchlauf: 10
+1439356662414	Stagnation: 0
+1439356662414	Fittest SuperIndividuum:  (198)[-2.0, 49.719185305858176]
+1439356694989	Fittest Individual: 0: ListIndividual{163456}
+1439356694989	fit: [-5.0, -4.0, -1.296689521525E12]
+1439356723146	Fittest Individual: 1: ListIndividual{168333}
+1439356723146	fit: [-4.0, -2.0, -1.296689507194E12]
+1439356723146	Stagnation: 0
+1439356753263	Fittest Individual: 2: ListIndividual{176858}
+1439356753263	fit: [-4.0, -2.0, -1.296689440393E12]
+1439356753263	Stagnation: 0
+1439356786096	Fittest Individual: 3: ListIndividual{179108}
+1439356786096	fit: [-3.0, -1.0, -1.296689508053E12]
+1439356786096	Stagnation: 0
+1439356820536	Fittest Individual: 4: ListIndividual{183646}
+1439356820536	fit: [-3.0, -1.0, -1.296689440307E12]
+1439356820536	Stagnation: 0
+1439356854542	Fittest Individual: 5: ListIndividual{196212}
+1439356854542	fit: [-3.0, -1.0, -1.296689398056E12]
+1439356854542	Stagnation: 0
+1439356889241	Fittest Individual: 6: ListIndividual{200310}
+1439356889241	fit: [-3.0, -1.0, -1.296689395276E12]
+1439356889241	Stagnation: 0
+1439356924472	Fittest Individual: 7: ListIndividual{204635}
+1439356924472	fit: [-3.0, -1.0, -1.29668939982E12]
+1439356924487	Stagnation: 1
+1439356959523	Fittest Individual: 8: ListIndividual{206132}
+1439356959523	fit: [-3.0, -1.0, -1.29668937468E12]
+1439356959523	Stagnation: 0
+1439356995147	Fittest Individual: 9: ListIndividual{212801}
+1439356995147	fit: [-3.0, -1.0, -1.296689355308E12]
+1439356995147	Stagnation: 0
+1439357030860	Fittest Individual: 10: ListIndividual{215399}
+1439357030860	fit: [-3.0, -1.0, -1.296689386569E12]
+1439357030860	Stagnation: 1
+1439357032095	Start bei Generation -1
+1439357128965	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_217533{ImplicitOperationIndividual{-521073227},ImplicitModeIndividual{1713071176}}(3/0.00000/0.00000)
+1439357128980	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_217501{ImplicitOperationIndividual{1895166736},ImplicitModeIndividual{-1172182088}}(3/0.00000/0.00000)
+1439357128997	Generationsdurchlauf: 0
+1439357224506	Fittest SuperIndividuum:  (198)[-3.0, 47.41315115206573]
+1439357224506	Generationsdurchlauf: 1
+1439357314238	Stagnation: 1
+1439357314238	Fittest SuperIndividuum:  (198)[-3.0, 47.41315115206573]
+1439357314238	Generationsdurchlauf: 2
+1439357401479	Stagnation: 0
+1439357401479	Fittest SuperIndividuum:  (198)[-3.0, 47.41429750101596]
+1439357401495	Generationsdurchlauf: 3
+1439357491324	Stagnation: 0
+1439357491324	Fittest SuperIndividuum:  (198)[-3.0, 47.45942603651321]
+1439357491324	Generationsdurchlauf: 4
+1439357589710	Stagnation: 1
+1439357589710	Fittest SuperIndividuum:  (198)[-3.0, 47.45942603651321]
+1439357589710	Generationsdurchlauf: 5
+1439357683611	Stagnation: 0
+1439357683611	Fittest SuperIndividuum:  (198)[-3.0, 47.4620586073132]
+1439357683611	Generationsdurchlauf: 6
+1439357790203	Stagnation: 1
+1439357790203	Fittest SuperIndividuum:  (198)[-3.0, 47.4620586073132]
+1439357790203	Generationsdurchlauf: 7
+1439357897580	Stagnation: 0
+1439357897580	Fittest SuperIndividuum:  (198)[-3.0, 47.46491062873275]
+1439357897580	Generationsdurchlauf: 8
+1439357991056	Stagnation: 0
+1439357991056	Fittest SuperIndividuum:  (198)[-3.0, 47.50489021315565]
+1439357991056	Generationsdurchlauf: 9
+1439358087827	Stagnation: 0
+1439358087827	Fittest SuperIndividuum:  (198)[-3.0, 47.505239281698316]
+1439358087827	Generationsdurchlauf: 10
+1439358182991	Stagnation: 0
+1439358182991	Fittest SuperIndividuum:  (198)[-3.0, 47.50533386435632]
+1439358273296	Fittest Individual: 0: ListIndividual{224450}
+1439358273296	fit: [-3.0, 0.0, -1.296691139693E12]
+1439358359412	Fittest Individual: 1: ListIndividual{229159}
+1439358359412	fit: [-3.0, 0.0, -1.296691136532E12]
+1439358359412	Stagnation: 0
+1439358443133	Fittest Individual: 2: ListIndividual{233461}
+1439358443133	fit: [-3.0, 0.0, -1.296691117365E12]
+1439358443133	Stagnation: 0
+1439358526510	Fittest Individual: 3: ListIndividual{234849}
+1439358526526	fit: [-3.0, 0.0, -1.296691134507E12]
+1439358526526	Stagnation: 1
+1439358607070	Fittest Individual: 4: ListIndividual{239032}
+1439358607086	fit: [-3.0, 0.0, -1.296691139281E12]
+1439358607086	Stagnation: 2
+1439358690839	Fittest Individual: 5: ListIndividual{244513}
+1439358690855	fit: [-3.0, 0.0, -1.296691130248E12]
+1439358690855	Stagnation: 0
+1439358773807	Fittest Individual: 6: ListIndividual{248491}
+1439358773807	fit: [-3.0, 0.0, -1.296691117365E12]
+1439358773807	Stagnation: 0
+1439358856309	Fittest Individual: 7: ListIndividual{251746}
+1439358856309	fit: [-3.0, 0.0, -1.296691110904E12]
+1439358856309	Stagnation: 0
+1439358936017	Fittest Individual: 8: ListIndividual{253326}
+1439358936017	fit: [-3.0, 0.0, -1.296691120632E12]
+1439358936017	Stagnation: 1
+1439359014659	Fittest Individual: 9: ListIndividual{257613}
+1439359014659	fit: [-3.0, 0.0, -1.296691117365E12]
+1439359014659	Stagnation: 0
+1439359091250	Fittest Individual: 10: ListIndividual{258837}
+1439359091250	fit: [-3.0, 0.0, -1.296691102643E12]
+1439359091250	Stagnation: 0
+1439359093314	Start bei Generation -1
+1439359181409	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_261065{ImplicitOperationIndividual{1595376871},ImplicitModeIndividual{-2003088898}}(3/0.00000/0.00000)
+1439359181424	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_261115{ImplicitOperationIndividual{-2002966694},ImplicitModeIndividual{-2060397549}}(3/0.00000/0.00000)
+1439359181440	Generationsdurchlauf: 0
+1439359267972	Fittest SuperIndividuum:  (199)[-3.0, 45.03939572101215]
+1439359267972	Generationsdurchlauf: 1
+1439359361122	Stagnation: 1
+1439359361122	Fittest SuperIndividuum:  (199)[-3.0, 45.03939572101215]
+1439359361122	Generationsdurchlauf: 2
+1439359449481	Stagnation: 2
+1439359449481	Fittest SuperIndividuum:  (199)[-3.0, 45.03939572101215]
+1439359449496	Generationsdurchlauf: 3
+1439359543135	Stagnation: 0
+1439359543135	Fittest SuperIndividuum:  (199)[-3.0, 45.03981038108458]
+1439359543135	Generationsdurchlauf: 4
+1439359631844	Stagnation: 1
+1439359631844	Fittest SuperIndividuum:  (199)[-3.0, 45.03981038108458]
+1439359631844	Generationsdurchlauf: 5
+1439359720935	Stagnation: 2
+1439359720935	Fittest SuperIndividuum:  (199)[-3.0, 45.03981038108458]
+1439359720935	Generationsdurchlauf: 6
+1439359824045	Stagnation: 3
+1439359824045	Fittest SuperIndividuum:  (199)[-3.0, 45.03981038108458]
+1439359824045	Generationsdurchlauf: 7
+1439359918268	Stagnation: 4
+1439359918268	Fittest SuperIndividuum:  (199)[-3.0, 45.03981038108458]
+1439359981459	Fittest Individual: 0: ListIndividual{265755}
+1439359981459	fit: [-3.0, -1.0, -1.296693001701E12]
+1439360039585	Fittest Individual: 1: ListIndividual{269236}
+1439360039585	fit: [-3.0, -1.0, -1.296692990281E12]
+1439360039585	Stagnation: 0
+1439360098442	Fittest Individual: 2: ListIndividual{276019}
+1439360098442	fit: [-3.0, -1.0, -1.29669296842E12]
+1439360098442	Stagnation: 0
+1439360155696	Fittest Individual: 3: ListIndividual{278248}
+1439360155696	fit: [-3.0, -1.0, -1.296692938563E12]
+1439360155696	Stagnation: 0
+1439360217141	Fittest Individual: 4: ListIndividual{282733}
+1439360217141	fit: [-3.0, -1.0, -1.296692966333E12]
+1439360217141	Stagnation: 1
+1439360277708	Fittest Individual: 5: ListIndividual{284549}
+1439360277708	fit: [-3.0, -1.0, -1.296692930876E12]
+1439360277708	Stagnation: 0
+1439360338519	Fittest Individual: 6: ListIndividual{287479}
+1439360338519	fit: [-3.0, -1.0, -1.296692949115E12]
+1439360338519	Stagnation: 1
+1439360399562	Fittest Individual: 7: ListIndividual{289092}
+1439360399562	fit: [-3.0, -1.0, -1.29669292987E12]
+1439360399562	Stagnation: 0
+1439360460242	Fittest Individual: 8: ListIndividual{292447}
+1439360460242	fit: [-3.0, -1.0, -1.296692942658E12]
+1439360460242	Stagnation: 1
+1439360521433	Fittest Individual: 9: ListIndividual{293802}
+1439360521433	fit: [-3.0, -1.0, -1.296692943932E12]
+1439360521433	Stagnation: 2
+1439360582221	Fittest Individual: 10: ListIndividual{300364}
+1439360582221	fit: [-3.0, -1.0, -1.296692927374E12]
+1439360582221	Stagnation: 0
+1439360583971	Start bei Generation -1
+1439360656112	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_302007{ImplicitOperationIndividual{83011816},ImplicitModeIndividual{1187502002}}(3/0.00000/0.00000)
+1439360656112	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_301928{ImplicitOperationIndividual{-465037843},ImplicitModeIndividual{-2062800766}}(3/0.00000/0.00000)
+1439360656127	Generationsdurchlauf: 0
+1439360728534	Fittest SuperIndividuum:  (198)[-3.0, 42.70839622941435]
+1439360728534	Generationsdurchlauf: 1
+1439360796342	Stagnation: 0
+1439360796342	Fittest SuperIndividuum:  (198)[-3.0, 42.70946503137635]
+1439360796342	Generationsdurchlauf: 2
+1439360865204	Stagnation: 1
+1439360865204	Fittest SuperIndividuum:  (198)[-3.0, 42.70946503137635]
+1439360865204	Generationsdurchlauf: 3
+1439360932897	Stagnation: 2
+1439360932897	Fittest SuperIndividuum:  (198)[-3.0, 42.70946503137635]
+1439360932897	Generationsdurchlauf: 4
+1439360998542	Stagnation: 0
+1439360998542	Fittest SuperIndividuum:  (198)[-3.0, 42.71080184316035]
+1439360998558	Generationsdurchlauf: 5
+1439361063792	Stagnation: 1
+1439361063792	Fittest SuperIndividuum:  (198)[-3.0, 42.71080184316035]
+1439361063792	Generationsdurchlauf: 6
+1439361128808	Stagnation: 0
+1439361128808	Fittest SuperIndividuum:  (198)[-3.0, 42.71405204208012]
+1439361128808	Generationsdurchlauf: 7
+1439361203293	Stagnation: 0
+1439361203293	Fittest SuperIndividuum:  (198)[-3.0, 42.71520010501368]
+1439361203293	Generationsdurchlauf: 8
+1439361266434	Stagnation: 0
+1439361266434	Fittest SuperIndividuum:  (198)[-3.0, 42.86866393267079]
+1439361266434	Generationsdurchlauf: 9
+1439361336224	Stagnation: 1
+1439361336224	Fittest SuperIndividuum:  (198)[-3.0, 42.86866393267079]
+1439361336224	Generationsdurchlauf: 10
+1439361406684	Stagnation: 2
+1439361406684	Fittest SuperIndividuum:  (198)[-3.0, 42.86866393267079]
+1439361536881	Fittest Individual: 0: ListIndividual{308032}
+1439361536897	fit: [-3.0, -4.0, -1.296694712484E12]
+1439361661883	Fittest Individual: 1: ListIndividual{309445}
+1439361661883	fit: [-3.0, -4.0, -1.296694711387E12]
+1439361661883	Stagnation: 0
+1439361784149	Fittest Individual: 2: ListIndividual{315576}
+1439361784149	fit: [-3.0, -4.0, -1.296694697564E12]
+1439361784149	Stagnation: 0
+1439361913340	Fittest Individual: 3: ListIndividual{317259}
+1439361913340	fit: [-3.0, -4.0, -1.296694687651E12]
+1439361913340	Stagnation: 0
+1439362043261	Fittest Individual: 4: ListIndividual{320226}
+1439362043261	fit: [-3.0, -4.0, -1.296694678391E12]
+1439362043261	Stagnation: 0
+1439362169763	Fittest Individual: 5: ListIndividual{321958}
+1439362169763	fit: [-3.0, -4.0, -1.296694678391E12]
+1439362169763	Stagnation: 1
+1439362305109	Fittest Individual: 6: ListIndividual{323672}
+1439362305109	fit: [-3.0, -4.0, -1.296694665334E12]
+1439362305109	Stagnation: 0
+1439362449289	Fittest Individual: 7: ListIndividual{324824}
+1439362449289	fit: [-3.0, -4.0, -1.296694669052E12]
+1439362449289	Stagnation: 1
+1439362599293	Fittest Individual: 8: ListIndividual{327873}
+1439362599293	fit: [-3.0, -4.0, -1.296694686509E12]
+1439362599293	Stagnation: 2
+1439362737226	Fittest Individual: 9: ListIndividual{329146}
+1439362737226	fit: [-3.0, -4.0, -1.296694680076E12]
+1439362737226	Stagnation: 0
+1439362864898	Fittest Individual: 10: ListIndividual{332642}
+1439362864898	fit: [-3.0, -4.0, -1.29669467755E12]
+1439362864898	Stagnation: 0
+1439362868352	Start bei Generation -1
+1439362932272	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_332956{ImplicitOperationIndividual{-1240664522},ImplicitModeIndividual{1934047772}}(3/0.00000/0.00000)
+1439362932288	Parallel_Co_evolving_Initial fittest: -3.00000	 Fittest Individual: TransshipmentSuperIndividual_333079{ImplicitOperationIndividual{471740791},ImplicitModeIndividual{-1841623186}}(3/0.00000/0.00000)
+1439362932288	Generationsdurchlauf: 0
+1439362999410	Fittest SuperIndividuum:  (198)[-3.0, 39.82039373807782]
+1439362999410	Generationsdurchlauf: 1
+1439363060553	Stagnation: 0
+1439363060553	Fittest SuperIndividuum:  (198)[-3.0, 39.82265046776471]
+1439363060553	Generationsdurchlauf: 2
+1439363125732	Stagnation: 1
+1439363125732	Fittest SuperIndividuum:  (198)[-3.0, 39.82265046776471]
+1439363125732	Generationsdurchlauf: 3
+1439363193807	Stagnation: 2
+1439363193807	Fittest SuperIndividuum:  (198)[-3.0, 39.82265046776471]
+1439363193807	Generationsdurchlauf: 4
+1439363262054	Stagnation: 0
+1439363262054	Fittest SuperIndividuum:  (198)[-3.0, 39.82325445259782]
+1439363262054	Generationsdurchlauf: 5
+1439363321493	Stagnation: 1
+1439363321495	Fittest SuperIndividuum:  (198)[-3.0, 39.82325445259782]
+1439363321497	Generationsdurchlauf: 6
+1439363381519	Stagnation: 2
+1439363381519	Fittest SuperIndividuum:  (198)[-3.0, 39.82325445259782]
+1439363381519	Generationsdurchlauf: 7
+1439363441517	Stagnation: 3
+1439363441517	Fittest SuperIndividuum:  (198)[-3.0, 39.82325445259782]
+1439363441517	Generationsdurchlauf: 8
+1439363501668	Stagnation: 4
+1439363501677	Fittest SuperIndividuum:  (198)[-3.0, 39.82325445259782]
+1439363582030	Fittest Individual: 0: ListIndividual{339114}
+1439363582030	fit: [-4.0, -9.0, -1.296696483488E12]
+1439363660073	Fittest Individual: 1: ListIndividual{340797}
+1439363660073	fit: [-3.0, -8.0, -1.296696559926E12]
+1439363660073	Stagnation: 0
+1439363743884	Fittest Individual: 2: ListIndividual{345197}
+1439363743884	fit: [-3.0, -8.0, -1.296696534672E12]
+1439363743900	Stagnation: 0
+1439363825545	Fittest Individual: 3: ListIndividual{346830}
+1439363825547	fit: [-3.0, -8.0, -1.296696533316E12]
+1439363825550	Stagnation: 0
+1439363906615	Fittest Individual: 4: ListIndividual{348785}
+1439363906615	fit: [-3.0, -8.0, -1.296696533894E12]
+1439363906615	Stagnation: 1
+1439363990420	Fittest Individual: 5: ListIndividual{351488}
+1439363990420	fit: [-3.0, -8.0, -1.29669646565E12]
+1439363990420	Stagnation: 0
+1439364073874	Fittest Individual: 6: ListIndividual{354973}
+1439364073874	fit: [-3.0, -8.0, -1.29669644323E12]
+1439364073890	Stagnation: 0
+1439364157698	Fittest Individual: 7: ListIndividual{357752}
+1439364157714	fit: [-3.0, -8.0, -1.296696450702E12]
+1439364157714	Stagnation: 1
+1439364244715	Fittest Individual: 8: ListIndividual{358973}
+1439364244715	fit: [-3.0, -8.0, -1.296696436343E12]
+1439364244715	Stagnation: 0
+1439364329050	Fittest Individual: 9: ListIndividual{363208}
+1439364329050	fit: [-3.0, -8.0, -1.296696430271E12]
+1439364329065	Stagnation: 0
+1439364415350	Fittest Individual: 10: ListIndividual{365585}
+1439364415365	fit: [-3.0, -8.0, -1.296696417087E12]
+1439364415367	Stagnation: 0
+1439364417881	Start bei Generation -1
+1439364463218	Parallel_Co_evolving_Initial fittest: -4.00000	 Fittest Individual: TransshipmentSuperIndividual_366444{ImplicitOperationIndividual{-1137786378},ImplicitModeIndividual{-1494779476}}(4/0.00000/0.00000)
+1439364463233	Parallel_Co_evolving_Initial fittest: -4.00000	 Fittest Individual: TransshipmentSuperIndividual_366374{ImplicitOperationIndividual{1994563401},ImplicitModeIndividual{933649452}}(4/0.00000/0.00000)
+1439364463249	Generationsdurchlauf: 0
+1439364510561	Fittest SuperIndividuum:  (196)[-3.0, 37.33621280365912]
+1439364510561	Generationsdurchlauf: 1
+1439364556979	Stagnation: 0
+1439364556979	Fittest SuperIndividuum:  (196)[-3.0, 37.337753186223736]
+1439364556979	Generationsdurchlauf: 2
+1439364616923	Stagnation: 0
+1439364616923	Fittest SuperIndividuum:  (196)[-3.0, 37.35419531273752]
+1439364616923	Generationsdurchlauf: 3
+1439364665112	Stagnation: 1
+1439364665112	Fittest SuperIndividuum:  (196)[-3.0, 37.35419531273752]
+1439364665112	Generationsdurchlauf: 4
+1439364716040	Stagnation: 2
+1439364716040	Fittest SuperIndividuum:  (196)[-3.0, 37.35419531273752]
+1439364716040	Generationsdurchlauf: 5
+1439364768451	Stagnation: 3
+1439364768451	Fittest SuperIndividuum:  (196)[-3.0, 37.35419531273752]
+1439364768451	Generationsdurchlauf: 6
+1439364821769	Stagnation: 4
+1439364821769	Fittest SuperIndividuum:  (196)[-3.0, 37.35419531273752]
+1439364942129	Fittest Individual: 0: ListIndividual{370759}
+1439364942129	fit: [-3.0, -8.0, -1.296698305441E12]
+1439365060743	Fittest Individual: 1: ListIndividual{375730}
+1439365060743	fit: [-3.0, -8.0, -1.296698305441E12]
+1439365060743	Stagnation: 1
+1439365186985	Fittest Individual: 2: ListIndividual{377940}
+1439365187000	fit: [-3.0, -8.0, -1.296698305441E12]
+1439365187000	Stagnation: 2
+1439365307074	Fittest Individual: 3: ListIndividual{378180}
+1439365307074	fit: [-3.0, -8.0, -1.296698305014E12]
+1439365307089	Stagnation: 0
+1439365428329	Fittest Individual: 4: ListIndividual{384567}
+1439365428337	fit: [-3.0, -8.0, -1.296698305441E12]
+1439365428339	Stagnation: 1
+1439365548499	Fittest Individual: 5: ListIndividual{385835}
+1439365548515	fit: [-3.0, -8.0, -1.296698305014E12]
+1439365548515	Stagnation: 0
+1439365670739	Fittest Individual: 6: ListIndividual{388516}
+1439365670741	fit: [-3.0, -8.0, -1.296698299735E12]
+1439365670743	Stagnation: 0
+1439365791589	Fittest Individual: 7: ListIndividual{391938}
+1439365823566	fit: [-3.0, -8.0, -1.296698305441E12]
+1439365823566	Stagnation: 1
+1439365945892	Fittest Individual: 8: ListIndividual{394165}
+1439365945908	fit: [-3.0, -8.0, -1.296698300261E12]
+1439365945908	Stagnation: 0
+1439366066891	Fittest Individual: 9: ListIndividual{394862}
+1439366066906	fit: [-3.0, -8.0, -1.296698305057E12]
+1439366066906	Stagnation: 1
+1439366187361	Fittest Individual: 10: ListIndividual{396933}
+1439366187361	fit: [-3.0, -8.0, -1.296698296111E12]
+1439366187361	Stagnation: 0
+1439366190667	Start bei Generation -1
+1439366238482	Parallel_Co_evolving_Initial fittest: -6.00000	 Fittest Individual: TransshipmentSuperIndividual_399172{ImplicitOperationIndividual{-28388968},ImplicitModeIndividual{-1064688812}}(6/0.00000/0.00000)
+1439366238482	Parallel_Co_evolving_Initial fittest: -5.00000	 Fittest Individual: TransshipmentSuperIndividual_399250{ImplicitOperationIndividual{1967247084},ImplicitModeIndividual{-96343423}}(5/0.00000/0.00000)
+1439366238498	Generationsdurchlauf: 0
+1439366281486	Fittest SuperIndividuum:  (198)[-5.0, 34.39179742443311]
+1439366281486	Generationsdurchlauf: 1
+1439366319496	Stagnation: 0
+1439366319496	Fittest SuperIndividuum:  (198)[-5.0, 34.40837275586978]
+1439366319496	Generationsdurchlauf: 2
+1439366363748	Stagnation: 0
+1439366363748	Fittest SuperIndividuum:  (198)[-5.0, 34.41056784572657]
+1439366363748	Generationsdurchlauf: 3
+1439366409657	Stagnation: 0
+1439366409657	Fittest SuperIndividuum:  (198)[-5.0, 34.59252388777747]
+1439366409672	Generationsdurchlauf: 4
+1439366454431	Stagnation: 1
+1439366454431	Fittest SuperIndividuum:  (198)[-5.0, 34.59252388777747]
+1439366454431	Generationsdurchlauf: 5
+1439366500703	Stagnation: 2
+1439366500703	Fittest SuperIndividuum:  (198)[-5.0, 34.59252388777747]
+1439366500703	Generationsdurchlauf: 6
+1439366546825	Stagnation: 3
+1439366546825	Fittest SuperIndividuum:  (198)[-5.0, 34.59252388777747]
+1439366546825	Generationsdurchlauf: 7
+1439366593849	Stagnation: 4
+1439366593849	Fittest SuperIndividuum:  (198)[-5.0, 34.59252388777747]
+1439366700296	Fittest Individual: 0: ListIndividual{404443}
+1439366700296	fit: [-11.0, -12.0, -1.296700381321E12]
+1439366804921	Fittest Individual: 1: ListIndividual{406323}
+1439366804937	fit: [-11.0, -12.0, -1.296700067073E12]
+1439366804937	Stagnation: 0
+1439366911276	Fittest Individual: 2: ListIndividual{411230}
+1439366911276	fit: [-10.0, -11.0, -1.296700194066E12]
+1439366911292	Stagnation: 0
+1439367017655	Fittest Individual: 3: ListIndividual{413217}
+1439367017655	fit: [-10.0, -11.0, -1.296700190929E12]
+1439367017655	Stagnation: 0
+1439367125223	Fittest Individual: 4: ListIndividual{414444}
+1439367125223	fit: [-8.0, -9.0, -1.296700220597E12]
+1439367125223	Stagnation: 0
+1439367238640	Fittest Individual: 5: ListIndividual{420640}
+1439367238640	fit: [-8.0, -9.0, -1.29670026998E12]
+1439367238640	Stagnation: 1
+1439367350053	Fittest Individual: 6: ListIndividual{422819}
+1439367350068	fit: [-8.0, -9.0, -1.296700330759E12]
+1439367350068	Stagnation: 2
+1439367460858	Fittest Individual: 7: ListIndividual{424879}
+1439367460874	fit: [-8.0, -9.0, -1.296700286922E12]
+1439367460874	Stagnation: 0
+1439367572617	Fittest Individual: 8: ListIndividual{426843}
+1439367572633	fit: [-8.0, -9.0, -1.296700246251E12]
+1439367572633	Stagnation: 0
+1439367684443	Fittest Individual: 9: ListIndividual{429508}
+1439367684445	fit: [-8.0, -9.0, -1.296700251968E12]
+1439367684447	Stagnation: 1
+1439367799334	Fittest Individual: 10: ListIndividual{430945}
+1439367799334	fit: [-8.0, -9.0, -1.296700234353E12]
+1439367799334	Stagnation: 0
+1439367802461	Start bei Generation -1
+1439367834204	Parallel_Co_evolving_Initial fittest: -10.00000	 Fittest Individual: TransshipmentSuperIndividual_433275{ImplicitOperationIndividual{-2122949265},ImplicitModeIndividual{1790800114}}(10/0.00000/0.00000)
+1439367834219	Parallel_Co_evolving_Initial fittest: -10.00000	 Fittest Individual: TransshipmentSuperIndividual_433201{ImplicitOperationIndividual{163928487},ImplicitModeIndividual{781044872}}(10/0.00000/0.00000)
+1439367834235	Generationsdurchlauf: 0
+1439367869504	Fittest SuperIndividuum:  (198)[-10.0, 30.836016502283854]
+1439367869504	Generationsdurchlauf: 1
+1439367903254	Stagnation: 1
+1439367903258	Fittest SuperIndividuum:  (198)[-10.0, 30.836016502283854]
+1439367903265	Generationsdurchlauf: 2
+1439367938324	Stagnation: 2
+1439367938339	Fittest SuperIndividuum:  (198)[-10.0, 30.836016502283854]
+1439367938345	Generationsdurchlauf: 3
+1439367973528	Stagnation: 3
+1439367973528	Fittest SuperIndividuum:  (198)[-10.0, 30.836016502283854]
+1439367973528	Generationsdurchlauf: 4
+1439368008657	Stagnation: 4
+1439368008659	Fittest SuperIndividuum:  (198)[-10.0, 30.836016502283854]
+1439368129446	Fittest Individual: 0: ListIndividual{436897}
+1439368129452	fit: [-11.0, -3.0, -1.296701930063E12]
+1439368248558	Fittest Individual: 1: ListIndividual{439395}
+1439368248558	fit: [-11.0, -3.0, -1.296701928145E12]
+1439368248574	Stagnation: 0
+1439368368314	Fittest Individual: 2: ListIndividual{442120}
+1439368368314	fit: [-11.0, -3.0, -1.296701880932E12]
+1439368368314	Stagnation: 0
+1439368487734	Fittest Individual: 3: ListIndividual{443961}
+1439368487734	fit: [-11.0, -3.0, -1.296701885978E12]
+1439368487734	Stagnation: 1
+1439368606062	Fittest Individual: 4: ListIndividual{445527}
+1439368606062	fit: [-11.0, -3.0, -1.296701888357E12]
+1439368606062	Stagnation: 2
+1439368725092	Fittest Individual: 5: ListIndividual{447631}
+1439368725092	fit: [-11.0, -3.0, -1.29670188333E12]
+1439368725092	Stagnation: 0
+1439368843478	Fittest Individual: 6: ListIndividual{448714}
+1439368843478	fit: [-11.0, -3.0, -1.296701870318E12]
+1439368843478	Stagnation: 0
+1439368961808	Fittest Individual: 7: ListIndividual{451678}
+1439368961808	fit: [-11.0, -3.0, -1.296701866891E12]
+1439368961824	Stagnation: 0
+1439369081048	Fittest Individual: 8: ListIndividual{454413}
+1439369081048	fit: [-11.0, -3.0, -1.296701855574E12]
+1439369081048	Stagnation: 0
+1439369199337	Fittest Individual: 9: ListIndividual{457145}
+1439369199337	fit: [-11.0, -3.0, -1.296701870474E12]
+1439369199337	Stagnation: 1
+1439369318902	Fittest Individual: 10: ListIndividual{458177}
+1439369318907	fit: [-11.0, -3.0, -1.296701850605E12]
+1439369318909	Stagnation: 0
+1439369322166	Start bei Generation -1
+1439369334867	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_459673{ImplicitOperationIndividual{431450716},ImplicitModeIndividual{1781232248}}(12/0.00000/0.00000)
+1439369334883	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_459765{ImplicitOperationIndividual{616047048},ImplicitModeIndividual{-1394548661}}(12/0.00000/0.00000)
+1439369334883	Generationsdurchlauf: 0
+1439369346101	Fittest SuperIndividuum:  (198)[-12.0, 28.063288776128754]
+1439369346105	Generationsdurchlauf: 1
+1439369357230	Stagnation: 1
+1439369357230	Fittest SuperIndividuum:  (198)[-12.0, 28.063288776128754]
+1439369357230	Generationsdurchlauf: 2
+1439369368200	Stagnation: 2
+1439369368200	Fittest SuperIndividuum:  (198)[-12.0, 28.063288776128754]
+1439369368200	Generationsdurchlauf: 3
+1439369379375	Stagnation: 3
+1439369379375	Fittest SuperIndividuum:  (198)[-12.0, 28.063288776128754]
+1439369379375	Generationsdurchlauf: 4
+1439369389612	Stagnation: 4
+1439369389612	Fittest SuperIndividuum:  (198)[-12.0, 28.063288776128754]
+1439369548565	Fittest Individual: 0: ListIndividual{463052}
+1439369548581	fit: [-11.0, 0.0, -1.296703600698E12]
+1439369708253	Fittest Individual: 1: ListIndividual{465522}
+1439369708253	fit: [-11.0, 0.0, -1.296703636575E12]
+1439369708253	Stagnation: 1
+1439369868855	Fittest Individual: 2: ListIndividual{468167}
+1439369868855	fit: [-11.0, 0.0, -1.29670365409E12]
+1439369868855	Stagnation: 2
+1439370029279	Fittest Individual: 3: ListIndividual{469481}
+1439370029279	fit: [-11.0, 0.0, -1.296703627527E12]
+1439370029279	Stagnation: 0
+1439370190936	Fittest Individual: 4: ListIndividual{472534}
+1439370190936	fit: [-11.0, 0.0, -1.296703573008E12]
+1439370190952	Stagnation: 0
+1439370354292	Fittest Individual: 5: ListIndividual{474270}
+1439370354292	fit: [-11.0, 0.0, -1.296703550779E12]
+1439370354292	Stagnation: 0
+1439370518534	Fittest Individual: 6: ListIndividual{476981}
+1439370518534	fit: [-11.0, 0.0, -1.296703557232E12]
+1439370518534	Stagnation: 1
+1439370683367	Fittest Individual: 7: ListIndividual{477437}
+1439370683369	fit: [-11.0, 0.0, -1.296703597667E12]
+1439370683371	Stagnation: 2
+1439370845073	Fittest Individual: 8: ListIndividual{480492}
+1439370845089	fit: [-11.0, 0.0, -1.296703572733E12]
+1439370845089	Stagnation: 0
+1439371008355	Fittest Individual: 9: ListIndividual{482248}
+1439371008357	fit: [-11.0, 0.0, -1.296703542796E12]
+1439371008360	Stagnation: 0
+1439371174226	Fittest Individual: 10: ListIndividual{483801}
+1439371174228	fit: [-11.0, 0.0, -1.296703559796E12]
+1439371174230	Stagnation: 1
+1439371178764	Start bei Generation -1
+1439371184441	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_484629{ImplicitOperationIndividual{-416679840},ImplicitModeIndividual{-558357025}}(12/0.00000/0.00000)
+1439371184441	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_484676{ImplicitOperationIndividual{2093378775},ImplicitModeIndividual{-354974143}}(12/0.00000/0.00000)
+1439371184456	Generationsdurchlauf: 0
+1439371190115	Fittest SuperIndividuum:  (198)[-12.0, 26.118632245384738]
+1439371190115	Generationsdurchlauf: 1
+1439371195664	Stagnation: 1
+1439371195664	Fittest SuperIndividuum:  (198)[-12.0, 26.118632245384738]
+1439371195664	Generationsdurchlauf: 2
+1439371201381	Stagnation: 2
+1439371201385	Fittest SuperIndividuum:  (198)[-12.0, 26.118632245384738]
+1439371201391	Generationsdurchlauf: 3
+1439371206962	Stagnation: 3
+1439371206966	Fittest SuperIndividuum:  (198)[-12.0, 26.118632245384738]
+1439371206972	Generationsdurchlauf: 4
+1439371212355	Stagnation: 4
+1439371212355	Fittest SuperIndividuum:  (198)[-12.0, 26.118632245384738]
+1439371215813	Fittest Individual: 0: ListIndividual{487864}
+1439371215813	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371218828	Fittest Individual: 1: ListIndividual{487864}
+1439371218828	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371218828	Stagnation: 1
+1439371221768	Fittest Individual: 2: ListIndividual{487864}
+1439371221770	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371221773	Stagnation: 2
+1439371224669	Fittest Individual: 3: ListIndividual{487864}
+1439371224669	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371224669	Stagnation: 3
+1439371227542	Fittest Individual: 4: ListIndividual{487864}
+1439371227542	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371227542	Stagnation: 4
+1439371230730	Start bei Generation -1
+1439371234969	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_488396{ImplicitOperationIndividual{-1965065713},ImplicitModeIndividual{-782175538}}(12/0.00000/0.00000)
+1439371234969	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_488285{ImplicitOperationIndividual{-1454768477},ImplicitModeIndividual{618407052}}(12/0.00000/0.00000)
+1439371234985	Generationsdurchlauf: 0
+1439371239444	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503757]
+1439371239444	Generationsdurchlauf: 1
+1439371243665	Stagnation: 1
+1439371243665	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503757]
+1439371243665	Generationsdurchlauf: 2
+1439371247814	Stagnation: 2
+1439371247816	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503757]
+1439371247817	Generationsdurchlauf: 3
+1439371252037	Stagnation: 3
+1439371252037	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503757]
+1439371252037	Generationsdurchlauf: 4
+1439371256010	Stagnation: 4
+1439371256010	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503757]
+1439371259403	Fittest Individual: 0: ListIndividual{491647}
+1439371259403	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371262403	Fittest Individual: 1: ListIndividual{491647}
+1439371262406	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371262408	Stagnation: 1
+1439371265369	Fittest Individual: 2: ListIndividual{491647}
+1439371265371	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371265373	Stagnation: 2
+1439371268250	Fittest Individual: 3: ListIndividual{491647}
+1439371268256	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371268259	Stagnation: 3
+1439371271126	Fittest Individual: 4: ListIndividual{491647}
+1439371271126	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371271142	Stagnation: 4
+1439371274347	Start bei Generation -1
+1439371278525	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_492075{ImplicitOperationIndividual{-776265795},ImplicitModeIndividual{-1396368871}}(12/0.00000/0.00000)
+1439371278525	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_492105{ImplicitOperationIndividual{1762271941},ImplicitModeIndividual{-1755693356}}(12/0.00000/0.00000)
+1439371278541	Generationsdurchlauf: 0
+1439371283005	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371283005	Generationsdurchlauf: 1
+1439371287199	Stagnation: 1
+1439371287200	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371287201	Generationsdurchlauf: 2
+1439371291520	Stagnation: 2
+1439371291521	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371291522	Generationsdurchlauf: 3
+1439371295543	Stagnation: 3
+1439371295543	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371295543	Generationsdurchlauf: 4
+1439371299512	Stagnation: 4
+1439371299512	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371302931	Fittest Individual: 0: ListIndividual{495185}
+1439371302931	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371305914	Fittest Individual: 1: ListIndividual{495185}
+1439371305916	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371305919	Stagnation: 1
+1439371308859	Fittest Individual: 2: ListIndividual{495185}
+1439371308859	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371308859	Stagnation: 2
+1439371311737	Fittest Individual: 3: ListIndividual{495185}
+1439371311737	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371311737	Stagnation: 3
+1439371314628	Fittest Individual: 4: ListIndividual{495185}
+1439371314628	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371314628	Stagnation: 4
+1439371317803	Start bei Generation -1
+1439371322011	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_495610{ImplicitOperationIndividual{-633443014},ImplicitModeIndividual{-1124176865}}(12/0.00000/0.00000)
+1439371322027	Parallel_Co_evolving_Initial fittest: -12.00000	 Fittest Individual: TransshipmentSuperIndividual_495754{ImplicitOperationIndividual{591816451},ImplicitModeIndividual{1636327972}}(12/0.00000/0.00000)
+1439371322042	Generationsdurchlauf: 0
+1439371326297	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371326297	Generationsdurchlauf: 1
+1439371330564	Stagnation: 1
+1439371330564	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371330564	Generationsdurchlauf: 2
+1439371334638	Stagnation: 2
+1439371334639	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371334640	Generationsdurchlauf: 3
+1439371338745	Stagnation: 3
+1439371338745	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371338745	Generationsdurchlauf: 4
+1439371342709	Stagnation: 4
+1439371342709	Fittest SuperIndividuum:  (198)[-12.0, 26.114743029503753]
+1439371346098	Fittest Individual: 0: ListIndividual{499364}
+1439371346114	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371349093	Fittest Individual: 1: ListIndividual{499364}
+1439371349093	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371349093	Stagnation: 1
+1439371352107	Fittest Individual: 2: ListIndividual{499364}
+1439371352109	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371352111	Stagnation: 2
+1439371354992	Fittest Individual: 3: ListIndividual{499364}
+1439371354992	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371354992	Stagnation: 3
+1439371357853	Fittest Individual: 4: ListIndividual{499364}
+1439371357869	fit: [-12.0, 0.0, -1.296703542796E12]
+1439371357869	Stagnation: 4
+1439371360995	Operationen gesamt: 3757
+1439371367215	null
+1439371367262	null
+1439371367262	null
+ro : 	37110296
+-----Nicht eingeplant---------
+-------
+Append Schedule
+--------------
+Crane{0}--->03.02.2011;04:18:40
+Crane{1}--->03.02.2011;04:27:13
+Crane{2}--->03.02.2011;04:18:29
+Crane{3}--->03.02.2011;04:06:52
+Crane{4}--->03.02.2011;04:10:25
+LCSystem{1}--->03.02.2011;04:13:35
+Konnte Datei nicht erstellen
+Scheduled Jobs: 676
+DNFs Gesamtschedule: 12
+#################################
+DNF vom Zug:
+0	1
+1	1
+2	0
+3	0
+4	0
+5	0
+6	0
+7	2
+8	0
+9	3
+10	1
+11	0
+12	2
+13	1
+14	0
+DNF zum Zug:
+0	1
+1	1
+2	0
+3	0
+4	0
+5	0
+6	1
+7	3
+8	0
+9	2
+10	1
+11	0
+12	1
+13	2
+14	0
+

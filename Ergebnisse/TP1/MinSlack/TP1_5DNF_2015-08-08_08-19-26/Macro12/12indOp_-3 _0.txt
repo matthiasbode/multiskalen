@@ -1,0 +1,20 @@
+[
+  "MINSLK",
+  "MTS",
+  "MINSLK",
+  "LST",
+  "MTS",
+  "MIS",
+  "MINSLK",
+  "MINSLK",
+  "MIS",
+  "MIS",
+  "MIS",
+  "MIS",
+  "MINSLK",
+  "SPT",
+  "LST",
+  "SPT",
+  "LPT",
+  "MTS"
+]
