@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox id="mainRoot"  styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="chartmaker.SampleController">
+    <children>
+        <Text id="welcome-text" text="ChartMaker">
+            <VBox.margin>
+                <Insets left="10.0" />
+            </VBox.margin>
+        </Text>
+        <TabPane id="tabpane"  side="TOP" tabClosingPolicy="UNAVAILABLE" >
+            <tabs>
+                <Tab closable="false" text="BarChart" >
+                    <content>
+                        <VBox spacing="5.0">
+                            <children>
+                                <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" text="Load Data" 
+                                                onAction="#handleLoadDataButtonAction"/>
+                                        <Button mnemonicParsing="false" text="Show Data" 
+                                                onAction="#handleShowDataButtonAction"/>
+                                        <CheckBox fx:id="checkTrans" onSelectedChange="#showDataInList"   text="Transpose" />
+                                        
+                                    </children>
+                                </HBox>
+                                <HBox spacing = "5.0">
+                                    <children>
+                                        <ListView minWidth="200"  prefWidth="300" onMouseClicked="#listClicked"  fx:id="listView">
+                                            
+                                        </ListView>
+                                        <BarChart prefHeight="1500" prefWidth="2000"  fx:id="barChart" >
+                                            <xAxis>
+                                                <CategoryAxis side="BOTTOM" />
+                                            </xAxis>
+                                            <yAxis>
+                                                <NumberAxis side="LEFT" />
+                                            </yAxis>
+                                        </BarChart> 
+                                    </children>
+                                </HBox>
+                                <HBox id="HBox" alignment="CENTER_RIGHT" spacing="5.0">
+                                    <children>
+                                        <Button alignment="CENTER_RIGHT" mnemonicParsing="false" text="Save All" 
+                                                onAction="#handleSaveAllButtonAction"/>
+                                        <Button mnemonicParsing="false" text="Save" 
+                                            onAction="#handleSaveButtonAction" />
+                                    </children>
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </padding>
+                        </VBox>
+                    </content>
+                </Tab>
+                <Tab closable="false" text="HeatMap">
+                    <content>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</VBox>

@@ -1,0 +1,89 @@
+/* 
+    Document   : Login
+    Created on : 15.09.2013, 17:54:33
+    Author     : Phil
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.root {
+    backblue : rgb(46,121,189);
+    -fx-font-fill: white
+}
+#mainRoot{
+    -fx-background-image: url("blueprint.jpg");
+}
+#popupRoot{
+    -fx-background-color: backblue;
+}
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.tab-pane .tab-header-area .tab{
+    -fx-background-color: linear-gradient(dodgerblue, rgb(46,121,189));
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+    -fx-padding: 3 10 3 10;
+    -fx-border-radius: 5 5 0 0;
+    -fx-border-width: 1 1 0 1;
+    -fx-border-color: white;
+}
+.tab-pane .tab-header-area .tab .tab-label{
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;  
+}
+.tab-pane .tab-header-area .tab:selected{
+    -fx-padding: 5 11 3 11;
+    -fx-background-color: linear-gradient(rgb(46,121,189), dodgerblue);   
+}
+.tab-pane .tab-header-area .tab-header-background{
+    -fx-opacity: 0;
+}
+.tab-pane .tab-content-area {
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-background-color: #00000000;
+}
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: gainsboro;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#actiontarget {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+.list-cell:odd{
+    -fx-background-color: backblue;
+}
+.list-cell:even{
+    -fx-background-color: dodgerblue;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    /*-fx-background-color: dodgerblue;*/
+    -fx-background-color: linear-gradient(dodgerblue, rgb(46,121,189));
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(rgb(46,121,189), dodgerblue);
+}
+.split-pane:vertical > * > .split-pane-divider {
+    -fx-border-color:  transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+.split-pane:horizontal > * > .split-pane-divider {
+    -fx-border-color:  transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+#header-anchor{
+    -fx-background-image: url("blueprint.jpg");
+}

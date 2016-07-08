@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="problem">
+    <xs:sequence>
+      <xs:element name="classes" type="class" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="lessons" type="lesson" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="periods" type="period" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="rooms" type="room" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="titel" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="class">
+    <xs:sequence>
+      <xs:element name="amountOfStudents" type="xs:int"/>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="index" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lesson">
+    <xs:sequence>
+      <xs:element name="index" type="xs:int"/>
+      <xs:element name="lecturer" type="lecturer" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="lecturer">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="period">
+    <xs:sequence>
+      <xs:element name="idInSchedule" type="xs:string" minOccurs="0"/>
+      <xs:element name="index" type="xs:int"/>
+      <xs:element name="timeSlot" type="timeSlot" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="timeSlot">
+    <xs:sequence>
+      <xs:element name="fromWhen" type="xs:long"/>
+      <xs:element name="untilWhen" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="room">
+    <xs:sequence>
+      <xs:element name="index" type="xs:int"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="seats" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

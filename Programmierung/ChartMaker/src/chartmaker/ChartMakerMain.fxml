@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.989990234375" prefWidth="505.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <SplitPane blendMode="SRC_OVER" dividerPositions="0.09821648018738212" focusTraversable="true" orientation="VERTICAL" prefHeight="449.989990234375" prefWidth="505.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane id="HeaderAnchor" blendMode="SRC_OVER" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <Text id="welcome-text" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ChartMaker" />
+            <VBox layoutX="365.0" layoutY="-78.0" prefHeight="200.0" prefWidth="100.0">
+              <padding>
+                <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+              </padding>
+            </VBox>
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <TabPane prefHeight="401.0" prefWidth="503.0" side="TOP" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <tabs>
+                <Tab closable="false" text="BarChart">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" opacity="1.0" prefHeight="180.0" prefWidth="200.0">
+                      <children>
+                        <SplitPane dividerPositions="0.10597826086956522" focusTraversable="true" orientation="VERTICAL" prefHeight="435.0" prefWidth="499.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane blendMode="SRC_OVER" depthTest="INHERIT" maxHeight="-Infinity" minHeight="-Infinity" minWidth="0.0" prefHeight="36.0" prefWidth="-1.0">
+                              <children>
+                                <HBox id="HBox" alignment="CENTER_LEFT" layoutX="14.0" layoutY="10.0" spacing="5.0">
+                                  <children>
+                                    <Button mnemonicParsing="false" text="Load Data" />
+                                    <Button mnemonicParsing="false" text="Transpose" HBox.hgrow="NEVER">
+                                      <HBox.margin>
+                                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                                      </HBox.margin>
+                                    </Button>
+                                    <Button mnemonicParsing="false" text="Show Data" />
+                                  </children>
+                                </HBox>
+                                <HBox id="HBox" alignment="CENTER_RIGHT" layoutX="371.0" layoutY="10.0" spacing="5.0">
+                                  <children>
+                                    <Button alignment="CENTER_RIGHT" mnemonicParsing="false" text="Save All" />
+                                    <Button mnemonicParsing="false" text="Save" />
+                                  </children>
+                                </HBox>
+                              </children>
+                            </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                              <children>
+                                <SplitPane depthTest="INHERIT" dividerPositions="0.24649298597194388" focusTraversable="true" prefHeight="214.0" prefWidth="497.0" visible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                  <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                      <children>
+                                        <ListView prefHeight="212.0" prefWidth="204.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                      </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" visible="true">
+                                      <children>
+                                        <BarChart prefHeight="212.0" prefWidth="285.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                          <xAxis>
+                                            <CategoryAxis side="BOTTOM" />
+                                          </xAxis>
+                                          <yAxis>
+                                            <CategoryAxis side="LEFT" />
+                                          </yAxis>
+                                        </BarChart>
+                                      </children>
+                                    </AnchorPane>
+                                  </items>
+                                </SplitPane>
+                              </children>
+                            </AnchorPane>
+                          </items>
+                        </SplitPane>
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab closable="false" text="HeatMap">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                      <children>
+                        <Pane prefHeight="435.0" prefWidth="499.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>
